@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data/runs/
+.taste-skill/
+
+# design reference scrapes (third-party content)
+.firecrawl/

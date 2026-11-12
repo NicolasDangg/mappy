@@ -1,0 +1,1805 @@
+{
+  "id": "01a1cdfd-1f28-72e0-9931-f58f941e41de",
+  "activity": "Fly a small camera drone (under 2 kg) commercially, selling aerial photography and video to paying clients",
+  "places": [
+    {
+      "place": "United Kingdom",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Incorporation of a Private Limited Company",
+          "authority": "Companies House",
+          "status": "conditional",
+          "condition": "Mandatory if operating as a limited company; a sole trader can trade without incorporating",
+          "fee": {
+            "amount": 100,
+            "currency": "GBP",
+            "basis": "one-off (digital filing)",
+            "text": "It costs £100 and can be paid by debit or credit card."
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 1,
+            "text": "Your company is usually registered within 24 hours."
+          },
+          "renewal": {
+            "period": "Annual confirmation statement",
+            "fee_text": "£50 to file your confirmation statement online; £110 to file a paper form CS01 by post"
+          },
+          "source_url": "https://www.gov.uk/limited-company-formation/register-your-company",
+          "source_quote": "It costs £100 and can be paid by debit or credit card. Your company is usually registered within 24 hours.",
+          "gaps": null,
+          "id": "united-kingdom-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Set up a private limited company",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "Corporation Tax registration and VAT registration",
+          "authority": "HM Revenue & Customs (HMRC)",
+          "status": "mandatory",
+          "condition": "Corporation Tax is mandatory for limited companies; VAT registration is conditional on taxable turnover exceeding £90,000",
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "No government fee stated for Corporation Tax or VAT registration on official pages"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Corporation Tax usually set up at same time as Companies House registration. VAT processing time not published on official page."
+          },
+          "renewal": {
+            "period": "Annual (Corporation Tax returns and VAT returns if registered)",
+            "fee_text": "No annual registration fee"
+          },
+          "source_url": "https://www.gov.uk/how-vat-works/vat-thresholds",
+          "source_quote": "Total taxable turnover | More than £90,000 | Register for VAT",
+          "gaps": "Official processing time for VAT registration is not published on the cited page. No government fee is charged for Corporation Tax or VAT registration.",
+          "id": "united-kingdom-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "How VAT works",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "PDRA01 Operational Authorisation",
+          "authority": "UK Civil Aviation Authority (CAA)",
+          "status": "mandatory",
+          "condition": "Required for commercial operations in residential, commercial, industrial or recreational areas with a drone between 250g and 25kg",
+          "fee": {
+            "amount": 524,
+            "currency": "GBP",
+            "basis": "per year",
+            "text": "PDRA01 costs £524 per year. There's no VAT to pay."
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 1,
+            "text": "We aim to issue your PDRA01 Authorisation within 24 hours."
+          },
+          "renewal": {
+            "period": "Annual (12 months)",
+            "fee_text": "£524 per year (same as initial fee; no VAT)"
+          },
+          "source_url": "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/apply-for-a-pdra01-operational-authorisation/",
+          "source_quote": "PDRA01 costs £524 per year. There's no VAT to pay. Your authorisation will last for 12 months.",
+          "gaps": null,
+          "id": "united-kingdom-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": false,
+              "quote": true
+            },
+            "page_title": "Apply for a PDRA01 Operational Authorisation | UK Civil Aviation Authority",
+            "note": "The page supports this item, but the processing time is not stated there in those words."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Operator ID (UAS Operator Registration)",
+          "authority": "UK Civil Aviation Authority (CAA)",
+          "status": "mandatory",
+          "condition": "Required for any person or organisation responsible for a drone 250g or above, or 100g or above with a camera",
+          "fee": {
+            "amount": 12.34,
+            "currency": "GBP",
+            "basis": "per year",
+            "text": "Registration for an Operator ID costs £12.34 and is valid for 1 year."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Processing time not published on official page"
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "£12.34 per year"
+          },
+          "source_url": "https://www.caa.co.uk/drones/open-category/getting-started-with-drones-and-model-aircraft/get-an-operator-id/",
+          "source_quote": "Registration for an Operator ID costs £12.34 and is valid for 1 year.",
+          "gaps": "Processing time not published on official page",
+          "id": "united-kingdom-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Get an Operator ID | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Flyer ID (online theory test)",
+          "authority": "UK Civil Aviation Authority (CAA)",
+          "status": "mandatory",
+          "condition": "Required for all pilots flying a drone 100g or above",
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "Flyer ID | £0 | 5 years"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Immediate upon passing online theory test"
+          },
+          "renewal": {
+            "period": "Every 5 years",
+            "fee_text": "Free (retake theory test)"
+          },
+          "source_url": "https://www.caa.co.uk/drones/open-category/getting-started-with-drones-and-model-aircraft/get-a-flyer-id/",
+          "source_quote": "Flyer ID | £0 | 5 years",
+          "gaps": null,
+          "id": "united-kingdom-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Get a Flyer ID | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "No premises or zoning approval required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/",
+          "source_quote": "You must get any applicable permission before flying from privately owned sites.",
+          "gaps": "No official UK government source in the evidence set imposes a planning, zoning, occupancy, fire-safety or signage requirement specific to a home-based drone photography business. Per-site permission is an operational (not premises) requirement.",
+          "id": "united-kingdom-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "PDRA01 overview | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "No sector-specific H&S or environmental certificate required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/",
+          "source_quote": "Any accidents that take place while operating under this Authorisation must be reported in accordance with UK Reg (EU) 996/2010 to the UK AAIB.",
+          "gaps": "No official source in evidence set imposes a drone-specific hygiene, environmental, or safety certificate. Occurrence and accident reporting under PDRA01 are operational obligations, not separate licences.",
+          "id": "united-kingdom-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "PDRA01 overview | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "Level 1 Remote Pilot Certificate (RPC-L1) or General Visual Line of Sight Certificate (GVC)",
+          "authority": "CAA-approved Recognised Assessment Entities for Pilot Competence (RAE-PCs)",
+          "status": "mandatory",
+          "condition": "Required for all remote pilots flying under PDRA01",
+          "fee": {
+            "amount": 71,
+            "currency": "GBP",
+            "basis": "per certificate (CAA administrative charge; training fee is set by RAE-PC and not regulated)",
+            "text": "Remote Pilot Certificates £71"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Every 5 years (GVC and RPC-L1)",
+            "fee_text": null
+          },
+          "source_url": "https://www.caa.co.uk/publication/download/27251",
+          "source_quote": "Remote Pilot Certificates £71 N/A",
+          "gaps": "Training and assessment fees are set by RAE-PCs and not regulated or published by CAA. Processing time for the certificate is not published. Renewal fee not published in official sources.",
+          "id": "united-kingdom-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Scheme of Charges - RPAS",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "Third-party liability insurance (EU 785/2004 compliant)",
+          "authority": "UK Civil Aviation Authority (compliance monitoring); commercial insurer (policy)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": "No government fee; premium set by commercial insurer and not published in any official source"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Annual (tied to policy term)",
+            "fee_text": null
+          },
+          "source_url": "https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/insurance-requirements/",
+          "source_quote": "If you fly a drone or model aircraft for any commercial reason, you must have third party insurance as a minimum.",
+          "gaps": "Premium amount is not set by government; set by commercial insurer. No official fee or processing time.",
+          "id": "united-kingdom-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Insurance requirements  | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "PDRA01 annual renewal; Operator ID renewal; Confirmation Statement; Corporation Tax return",
+          "authority": "CAA; CAA; Companies House; HMRC",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "GBP",
+            "basis": "per year (multiple items)",
+            "text": "PDRA01: £524/yr; Operator ID: £12.34/yr; Confirmation statement: £50/yr (digital); Corporation Tax return: no filing fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Annual (PDRA01, Operator ID, Confirmation Statement, Corporation Tax); 5-yearly (Flyer ID)",
+            "fee_text": "PDRA01 £524; Operator ID £12.34; Confirmation Statement £50 digital; Corporation Tax no filing fee"
+          },
+          "source_url": "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/manage-or-reapply-for-your-pdra01/",
+          "source_quote": "PDRA01 Operational Authorisation costs £524 per year. There's no VAT to pay.",
+          "gaps": "Processing time: Not published for most ongoing filings",
+          "id": "united-kingdom-10",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Manage or reapply for your PDRA01 | UK Civil Aviation Authority",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 6,
+        "conditional_steps": 1,
+        "upfront": [
+          {
+            "currency": "GBP",
+            "amount": 607.34
+          }
+        ],
+        "upfront_usd": 808.1839053792246,
+        "fees_unpublished": 1,
+        "longest_wait_days": 1,
+        "longest_wait_min_days": 1,
+        "longest_wait_item": "PDRA01 Operational Authorisation",
+        "times_unpublished": 5,
+        "ongoing_items": 3,
+        "gaps": 7,
+        "sources_confirmed": 10,
+        "sources_total": 10
+      }
+    },
+    {
+      "place": "Australia",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Company registration (Pty Ltd) via ASIC / Business name registration via ASIC",
+          "authority": "Australian Securities and Investments Commission (ASIC)",
+          "status": "conditional",
+          "condition": "Company registration required if operating as a Pty Ltd; business name required if trading under a name different from the operator's own name; sole traders using their own name need neither",
+          "fee": {
+            "amount": null,
+            "currency": "AUD",
+            "basis": "one-off",
+            "text": "Business name: $47 for 1 year, $108 for 3 years. Company registration fee: official ASIC pages render amount as a template placeholder ({I01}/{I02}); exact amount not stated in evidence."
+          },
+          "processing_time": {
+            "min_days": 2,
+            "max_days": 5,
+            "text": "Business name: confirmation within 2 business days (credit card) or 5 business days (BPAY/EFT). Company registration processing time not published in evidence."
+          },
+          "renewal": {
+            "period": "Business name: 1 or 3 years; Company: annual review",
+            "fee_text": "Business name: $47/yr or $108/3 yrs. Company annual review fee: not published (placeholder in ASIC source)"
+          },
+          "source_url": "https://business.gov.au/registrations/register-your-business-name",
+          "source_quote": "The fees to register your business name with ASIC are: $47 for 1 year $108 for 3 years",
+          "gaps": "ASIC company registration fee and annual review fee amounts are rendered as template placeholders ({I01}/{I02} and {A52}) in official pages and are not stated in the evidence. Decision-makers must check asic.gov.au directly.",
+          "id": "australia-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Register your business name | business.gov.au",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "Australian Business Number (ABN); GST registration",
+          "authority": "Australian Taxation Office (ATO) / Australian Business Register",
+          "status": "mandatory",
+          "condition": "ABN mandatory before registering business name or drone. GST registration mandatory when GST turnover reaches $75,000 AUD.",
+          "fee": {
+            "amount": 0,
+            "currency": "AUD",
+            "basis": "one-off",
+            "text": "No government fee stated for ABN or GST registration in official sources"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Processing time not published in evidence set for GST registration"
+          },
+          "renewal": {
+            "period": "No renewal for ABN or GST registration",
+            "fee_text": null
+          },
+          "source_url": "https://www.ato.gov.au/api/public/content/0-1e92db95-a75c-4f4e-a3d4-39f43b1a3b25",
+          "source_quote": "You need to register for GST if you run a business or other enterprise and you either: have a GST turnover of $75,000 or more ($150,000 or more for non-profit organisations).",
+          "gaps": "No government fee is published for ABN registration. GST registration processing time not published.",
+          "id": "australia-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": null,
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "RPA Operator Accreditation (sub-2 kg excluded category)",
+          "authority": "Civil Aviation Safety Authority (CASA)",
+          "status": "mandatory",
+          "condition": "Required for all commercial/business drone use; no RePL or ReOC required for sub-2 kg drones",
+          "fee": {
+            "amount": 0,
+            "currency": "AUD",
+            "basis": "one-off",
+            "text": "Obtaining your accreditation is: free online"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Online quiz; no government-set processing time published beyond the quiz being completed in one session. Scores of 85% or higher required to pass."
+          },
+          "renewal": {
+            "period": "Every 3 years",
+            "fee_text": "Free"
+          },
+          "source_url": "https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation",
+          "source_quote": "Obtaining your accreditation is: free online valid for 3 years.",
+          "gaps": "No government-set processing time published beyond the online quiz requirement.",
+          "id": "australia-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": false,
+              "quote": true
+            },
+            "page_title": "Get or renew your operator accreditation",
+            "note": "The page supports this item, but the processing time is not stated there in those words."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Drone Registration (CASA)",
+          "authority": "Civil Aviation Safety Authority (CASA)",
+          "status": "mandatory",
+          "condition": "Mandatory for any drone used for business purposes regardless of weight",
+          "fee": {
+            "amount": null,
+            "currency": "AUD",
+            "basis": "per drone per year",
+            "text": "If your drone weighs: 500 g or less, registration is free; more than 500 g, a $40 registration levy applies to each drone."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "You can easily register your drone online in just a few minutes"
+          },
+          "renewal": {
+            "period": "Annual (12 months)",
+            "fee_text": "$0 for ≤500g; $40 for >500g per drone per year"
+          },
+          "source_url": "https://www.casa.gov.au/drones/drone-registration/registration-requirements",
+          "source_quote": "If your drone weighs: 500 g or less, registration is free; more than 500 g, a $40 registration levy applies to each drone.",
+          "gaps": "No official government-set processing time beyond 'a few minutes' online.",
+          "id": "australia-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Registration requirements",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "No premises or zoning approval required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.casa.gov.au/drones/drone-rules/drone-safety-rules",
+          "source_quote": "Drones might need special approval in certain areas like national parks or wildlife zones. Private property owners may also require it. Rules vary by state and territory.",
+          "gaps": "No official source in evidence set imposes a premises or zoning requirement on a drone photography business. CASA airspace rules govern where flights occur, not business premises.",
+          "id": "australia-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Drone safety rules",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "No sector-specific H&S or environmental certificate required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation",
+          "source_quote": "You must follow the: drone safety rules that apply to all types of drones standard operating conditions for micro and excluded category RPA.",
+          "gaps": "No official source in evidence set imposes a drone-specific hygiene, environmental, or safety certificate for sub-2 kg commercial operators.",
+          "id": "australia-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Get or renew your operator accreditation",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "No pilot licence required for sub-2 kg excluded category (operator accreditation suffices)",
+          "authority": "CASA",
+          "status": "not_required",
+          "condition": "No RePL required for the sub-2 kg excluded category; operator accreditation (online quiz, free) is the only qualification requirement",
+          "fee": {
+            "amount": 0,
+            "currency": "AUD",
+            "basis": "one-off",
+            "text": "Operator accreditation is free online"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Online quiz; completed in one session"
+          },
+          "renewal": {
+            "period": "Every 3 years",
+            "fee_text": "Free"
+          },
+          "source_url": "https://www.casa.gov.au/drones/operator-accreditation-certificate/drone-weight-categories-and-requirements",
+          "source_quote": "You can fly a very small drone or RPA that weighs 2 kg or less for business or as part of your job. This is also called the sub-2 kg excluded category because you do not need a RePL or ReOC.",
+          "gaps": null,
+          "id": "australia-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Drone weight categories and requirements",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "No confirmed mandatory insurance requirement for sub-2 kg excluded category",
+          "authority": "CASA",
+          "status": "unclear",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator",
+          "source_quote": "Confirm that the operator's insurance covers the services provided.",
+          "gaps": "No official CASA page in the evidence set states that third-party liability insurance is legally compulsory for sub-2 kg excluded-category commercial operators. The CASA 'hiring' page advises confirming insurance but frames this as prudential advice, not a statutory requirement. Decision-makers should check Civil Aviation Safety Regulations Part 101 directly.",
+          "id": "australia-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Hiring a drone operator",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "Drone registration renewal; operator accreditation renewal; business name/company filings; ATO income tax",
+          "authority": "CASA; ASIC; ATO",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "AUD",
+            "basis": "per year / per 3 years",
+            "text": "Drone reg: $0 (≤500g) or $40/yr (>500g); accreditation renewal: free every 3 yrs; business name: $47/yr or $108/3 yrs; company annual review fee: not published"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Drone registration: annual; accreditation: 3-yearly; business name: 1 or 3 years; company: annual",
+            "fee_text": "Drone reg $40 (>500g); accreditation free; business name $47/yr; company annual review fee not published"
+          },
+          "source_url": "https://www.casa.gov.au/drones/drone-registration/registration-requirements",
+          "source_quote": "You can easily register your drone online in just a few minutes, and the registration is valid for 12 months.",
+          "gaps": "ASIC annual company review fee amount is not rendered in official pages in the evidence set.",
+          "id": "australia-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Registration requirements",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 3,
+        "conditional_steps": 1,
+        "upfront": [
+          {
+            "currency": "AUD",
+            "amount": 0
+          }
+        ],
+        "upfront_usd": 0,
+        "fees_unpublished": 1,
+        "longest_wait_days": null,
+        "longest_wait_min_days": null,
+        "longest_wait_item": null,
+        "times_unpublished": 3,
+        "ongoing_items": 2,
+        "gaps": 8,
+        "sources_confirmed": 9,
+        "sources_total": 9
+      }
+    },
+    {
+      "place": "United States",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "State-level entity formation (LLC, corporation, or sole trader)",
+          "authority": "Secretary of State (varies by state)",
+          "status": "conditional",
+          "condition": "No federal law requires a business entity to be formed to operate commercially under Part 107. Required only if the operator chooses to form an LLC or corporation, which is a state-level decision.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": "one-off (varies by state)",
+            "text": "Varies by state; not published in any federal official source in the evidence set"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Varies by state; not published in any federal official source in the evidence set"
+          },
+          "renewal": {
+            "period": "Varies by state",
+            "fee_text": "Varies by state; not published in any federal official source in the evidence set"
+          },
+          "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+          "source_quote": "If you are creating a corporation or LLC, form your entity through the secretary of state before you apply for an EIN.",
+          "gaps": "State business registration requirements, fees, and timelines are outside the federal sources in this evidence set. No federal government page states a uniform business registration requirement for Part 107 commercial operators.",
+          "id": "united-states-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Get an employer identification number | Internal Revenue Service",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "Employer Identification Number (EIN)",
+          "authority": "Internal Revenue Service (IRS)",
+          "status": "conditional",
+          "condition": "Required to hire employees, operate as a corporation or partnership, or pay certain taxes. Sole proprietors with no employees may use Social Security Number.",
+          "fee": {
+            "amount": 0,
+            "currency": "USD",
+            "basis": "one-off",
+            "text": "You never have to pay a fee for an EIN."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "If it's approved, we'll issue your EIN immediately online."
+          },
+          "renewal": {
+            "period": "No renewal; permanent",
+            "fee_text": null
+          },
+          "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+          "source_quote": "Beware of websites that charge for an EIN. You never have to pay a fee for an EIN.",
+          "gaps": "State sales tax registration requirements vary by state and are not covered by any federal official source in the evidence set.",
+          "id": "united-states-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Get an employer identification number | Internal Revenue Service",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Remote Pilot Certificate (Part 107, Small UAS Rule)",
+          "authority": "Federal Aviation Administration (FAA)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 175,
+            "currency": "USD",
+            "basis": "per initial knowledge test (approximate; set by Knowledge Testing Centers)",
+            "text": "Knowledge Testing Centers charge approximately $175 to people seeking to take the initial aeronautical knowledge test."
+          },
+          "processing_time": {
+            "min_days": 42,
+            "max_days": 56,
+            "text": "It takes about six to eight weeks to process and send your permanent certificate. (Temporary certificate available immediately at testing center.)"
+          },
+          "renewal": {
+            "period": "Certificate is permanent (no expiration); recurrent online training every 24 calendar months",
+            "fee_text": "Recurrent training (ALC-677): free"
+          },
+          "source_url": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+          "source_quote": "In order to fly your drone under the FAA's Small UAS Rule (Part 107), you must obtain a Remote Pilot Certificate from the FAA.",
+          "gaps": null,
+          "id": "united-states-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Become a Certificated Remote Pilot | Federal Aviation Administration",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "FAA Part 107 Drone Registration",
+          "authority": "Federal Aviation Administration (FAA)",
+          "status": "mandatory",
+          "condition": "Required for all drones used commercially; drones under 0.55 lbs (250g) flown recreationally only are exempt",
+          "fee": {
+            "amount": 5,
+            "currency": "USD",
+            "basis": "per drone",
+            "text": "Part 107 registration costs $5 per drone and is valid for three (3) years."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Every 3 years",
+            "fee_text": "$5 per drone"
+          },
+          "source_url": "https://www.faa.gov/uas/getting_started/register_drone",
+          "source_quote": "Part 107 registration costs $5 per drone and is valid for three (3) years.",
+          "gaps": "Processing time not stated in official source.",
+          "id": "united-states-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "How to Register Your Drone | Federal Aviation Administration",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "No federal premises or zoning approval required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.faa.gov/uas/commercial_operators",
+          "source_quote": "If you have a small drone that is less than 55 pounds, you can fly for work or business by following the Part 107 guidelines.",
+          "gaps": "No federal source in the evidence set imposes a premises or zoning requirement. State/local rules may apply but are not addressed in federal sources.",
+          "id": "united-states-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Certificated Remote Pilots including Commercial Operators | Federal Aviation Administration",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "No federal sector-specific H&S or environmental certificate required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.faa.gov/uas/commercial_operators",
+          "source_quote": "If you have a small drone that is less than 55 pounds, you can fly for work or business by following the Part 107 guidelines.",
+          "gaps": "No FAA or other federal official source in the evidence set imposes a drone-specific H&S or environmental certificate.",
+          "id": "united-states-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Certificated Remote Pilots including Commercial Operators | Federal Aviation Administration",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "Remote Pilot Certificate (Part 107) — pilot qualification",
+          "authority": "Federal Aviation Administration (FAA)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 175,
+            "currency": "USD",
+            "basis": "per initial knowledge test (approximate; set by Knowledge Testing Centers)",
+            "text": "Knowledge Testing Centers charge approximately $175 to people seeking to take the initial aeronautical knowledge test."
+          },
+          "processing_time": {
+            "min_days": 42,
+            "max_days": 56,
+            "text": "It takes about six to eight weeks to process and send your permanent certificate."
+          },
+          "renewal": {
+            "period": "Recurrent online training every 24 calendar months (certificate itself does not expire)",
+            "fee_text": "Free (ALC-677 online course)"
+          },
+          "source_url": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+          "source_quote": "Certificate holders must complete an online recurrent training every 24 calendar months to maintain aeronautical knowledge recency.",
+          "gaps": null,
+          "id": "united-states-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Become a Certificated Remote Pilot | Federal Aviation Administration",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "No federal mandatory insurance requirement for Part 107 commercial operators",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.faa.gov/uas/commercial_operators",
+          "source_quote": "If you have a small drone that is less than 55 pounds, you can fly for work or business by following the Part 107 guidelines.",
+          "gaps": "No FAA or other federal official source in the evidence set makes third-party insurance a legal prerequisite for Part 107 commercial operations. State laws may impose requirements in some contexts but are not addressed in federal sources.",
+          "id": "united-states-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Certificated Remote Pilots including Commercial Operators | Federal Aviation Administration",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "FAA drone registration renewal; recurrent aeronautical knowledge training; federal tax returns",
+          "authority": "FAA; FAA; IRS",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": "per 3 years (drone reg); every 24 months (recurrent training)",
+            "text": "Drone registration renewal: $5/drone every 3 years. Recurrent training (ALC-677): free every 24 calendar months."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Drone registration: every 3 years ($5); recurrent training: every 24 calendar months (free); federal tax: annual",
+            "fee_text": "$5/drone every 3 years; free recurrent training; no filing fee for federal tax return"
+          },
+          "source_url": "https://www.faa.gov/uas/getting_started/register_drone",
+          "source_quote": "Part 107 registration costs $5 per drone and is valid for three (3) years.",
+          "gaps": "State-level business filings vary by state and are not addressed in federal sources.",
+          "id": "united-states-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "How to Register Your Drone | Federal Aviation Administration",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 3,
+        "conditional_steps": 2,
+        "upfront": [
+          {
+            "currency": "USD",
+            "amount": 355
+          }
+        ],
+        "upfront_usd": 355,
+        "fees_unpublished": 0,
+        "longest_wait_days": 56,
+        "longest_wait_min_days": 42,
+        "longest_wait_item": "Remote Pilot Certificate (Part 107, Small UAS Rule)",
+        "times_unpublished": 1,
+        "ongoing_items": 1,
+        "gaps": 7,
+        "sources_confirmed": 9,
+        "sources_total": 9
+      }
+    },
+    {
+      "place": "Singapore",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Company registration (Private Limited – Pte Ltd) or sole proprietorship/partnership",
+          "authority": "Accounting and Corporate Regulatory Authority (ACRA)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": "one-off",
+            "text": "Apply for new business entity name: $15. Register new business entity (company/Pte Ltd): $300. Sole proprietorship registration: $100 (name $15). Total for Pte Ltd: $315; total for sole proprietorship: $115."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Processing time not published in evidence set"
+          },
+          "renewal": {
+            "period": "Annual return filing required",
+            "fee_text": "ACRA annual return fee for Pte Ltd: not published in evidence set (penalty for late filing: up to S$600)"
+          },
+          "source_url": "https://www.acra.gov.sg/manage/companies/service-transaction-fees/",
+          "source_quote": "Register new business entity | $300",
+          "gaps": "ACRA annual return fee dollar amount for a Pte Ltd is not stated in the evidence set. Decision-makers must check ACRA Bizfile directly.",
+          "id": "singapore-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Service & transaction fees: Companies",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "Corporate Income Tax registration; GST registration (conditional)",
+          "authority": "Inland Revenue Authority of Singapore (IRAS)",
+          "status": "mandatory",
+          "condition": "Corporate Income Tax mandatory for all companies. GST mandatory when taxable turnover exceeds S$1 million.",
+          "fee": {
+            "amount": 0,
+            "currency": "SGD",
+            "basis": "one-off",
+            "text": "No government fee stated for corporate income tax or GST registration in official sources"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Annual (IRAS Form C-S/C by 30 November each year); no annual registration fee",
+            "fee_text": null
+          },
+          "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst",
+          "source_quote": "You must register for GST if your taxable turnover is: 1. Under the retrospective view, more than $1 million at the end of the calendar year",
+          "gaps": "GST registration processing time not published. No government fee is charged for registration.",
+          "id": "singapore-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "IRAS | Do I need to register for GST",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "UA Operator Permit",
+          "authority": "Civil Aviation Authority of Singapore (CAAS)",
+          "status": "mandatory",
+          "condition": "Required for all business UA operations; not valid without also having Class 1 Activity Permit",
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": "per application (initial and renewal)",
+            "text": "1st UA type S$700; 2nd UA and onwards (of different type) S$500; Renewal S$300; An additional fee of $200 will be collected for the purpose of CFMS subscription before the grant of the Operator Permit."
+          },
+          "processing_time": {
+            "min_days": 10,
+            "max_days": 10,
+            "text": "Operator Permit | 10 working days (subject to complexity and full submission of all required supporting documents)"
+          },
+          "renewal": {
+            "period": "Annual (valid for up to one year)",
+            "fee_text": "Renewal S$300 plus S$200 CFMS subscription = S$500 per year"
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+          "source_quote": "Operator Permit (valid for up to one year) 1st UA type S$700; 2nd UA and onwards (of different type) S$500; Renewal S$300; An additional fee of $200 will be collected for the purpose of CFMS subscription before the grant of the Operator Permit.",
+          "gaps": null,
+          "id": "singapore-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": true,
+              "quote": false
+            },
+            "page_title": "Operator and activity permits",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Class 1 Activity Permit",
+          "authority": "Civil Aviation Authority of Singapore (CAAS)",
+          "status": "mandatory",
+          "condition": "Required for every commercial activity; not valid without a UA Operator Permit",
+          "fee": {
+            "amount": 120,
+            "currency": "SGD",
+            "basis": "per activity or block of same activity",
+            "text": "Class 1 Activity Permit (non light show): S$120 per activity, S$45 repeat/variation"
+          },
+          "processing_time": {
+            "min_days": 5,
+            "max_days": 5,
+            "text": "Activity Permit | 5 working days"
+          },
+          "renewal": {
+            "period": "Per activity/block; no annual renewal as such",
+            "fee_text": "S$120 per activity or block; S$45 for repeat/variation"
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+          "source_quote": "Class 1 Activity Permit (non light show): S$120 per activity, S$45 repeat/variation",
+          "gaps": null,
+          "id": "singapore-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": false
+            },
+            "page_title": "Operator and activity permits",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "CFMS UA Tracker (hardware)",
+          "authority": "CAAS",
+          "status": "mandatory",
+          "condition": "Required for UA weighing more than 250g before operation",
+          "fee": {
+            "amount": 265,
+            "currency": "SGD",
+            "basis": "one-off (subject to prevailing GST)",
+            "text": "UA Tracker: S$265 (subject to prevailing GST)"
+          },
+          "processing_time": {
+            "min_days": 7,
+            "max_days": 7,
+            "text": "CFMS UA Tracker (including collection) | 7 working days"
+          },
+          "renewal": {
+            "period": "Embedded in annual Operator Permit renewal (S$200 CFMS subscription)",
+            "fee_text": "S$200 per year (CFMS subscription, included in Operator Permit renewal)"
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+          "source_quote": "CFMS UA Tracker (including collection) | 7 working days. UA Tracker: S$265 (subject to prevailing GST).",
+          "gaps": null,
+          "id": "singapore-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": false
+            },
+            "page_title": "Operator and activity permits",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "No premises or zoning approval required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+          "source_quote": "These requirements apply to anyone flying a UA in Singapore, including Singapore Citizens, Singapore Permanent Residents, and non-residents.",
+          "gaps": "No official Singapore government source in the evidence set imposes a planning, zoning, occupancy, fire-safety or signage requirement specific to a drone photography business. ACRA requires a registered address; CAAS rules govern where flights occur.",
+          "id": "singapore-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Requirements for flying unmanned aircraft",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "No sector-specific H&S or environmental certificate required",
+          "authority": "N/A",
+          "status": "not_required",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+          "source_quote": "The assessment covers the applicant's: organisational setup; safety procedures, including risk assessments; airworthiness of each UA; competency of personnel involved in flying operations.",
+          "gaps": "No official Singapore source in the evidence set imposes a drone-specific hygiene, environmental, or safety certificate. The Operator Permit assessment covers safety procedures but is an aviation regulatory assessment, not a separate H&S certificate.",
+          "id": "singapore-7",
+          "check": {
+            "status": "page_live",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Operator and activity permits",
+            "note": "The page is live, but we could not find the quoted wording in its text. It may sit in a PDF, table or fee calculator. Open the page to confirm."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "Unmanned Aircraft Pilot Licence (UAPL)",
+          "authority": "Civil Aviation Authority of Singapore (CAAS)",
+          "status": "mandatory",
+          "condition": "Required for all commercial/non-recreational UA operations regardless of weight",
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": null,
+            "text": "No CAAS government fee published in evidence set for the UAPL. Training fees set by UATOs and not regulated by CAAS; they vary."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Processing time for UAPL application not published in evidence set"
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/unmanned-aircraft-pilot-licence/",
+          "source_quote": "You must obtain an Unmanned Aircraft Pilot Licence (UAPL) if you operate your UA, including drones, for any of the following purposes, regardless of the UA's weight: commercial; non-recreational; non-educational",
+          "gaps": "No CAAS government fee is published for the UAPL. UATO training fees vary and are not regulated. Processing time and renewal period/fee not published.",
+          "id": "singapore-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Unmanned aircraft pilot licence",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "No confirmed mandatory insurance requirement found in official sources",
+          "authority": "CAAS",
+          "status": "unclear",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+          "source_quote": "The assessment covers the applicant's: organisational setup; safety procedures, including risk assessments; airworthiness of each UA; competency of personnel involved in flying operations.",
+          "gaps": "No official CAAS page or Air Navigation Act provision in the evidence set explicitly mandates third-party liability insurance for commercial drone operators in Singapore. Decision-makers must review the Air Navigation (Amendment) Regulations and CAAS Advisory Circular AC 101-2-1 (Rev 8) directly.",
+          "id": "singapore-9",
+          "check": {
+            "status": "page_live",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Operator and activity permits",
+            "note": "The page is live, but we could not find the quoted wording in its text. It may sit in a PDF, table or fee calculator. Open the page to confirm."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "Operator Permit renewal; Activity Permits per job; ACRA Annual Return; IRAS Form C-S/C",
+          "authority": "CAAS; CAAS; ACRA; IRAS",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": "annual / per activity",
+            "text": "Operator Permit renewal: S$300 + S$200 CFMS = S$500/yr; Activity Permit: S$120/block (S$45 repeat); ACRA Annual Return fee: not published; IRAS Form C-S: no filing fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Operator Permit: annual; Activity Permit: per activity; ACRA Annual Return: annual; IRAS Form C-S: annual by 30 Nov",
+            "fee_text": "Operator Permit S$500/yr; Activity Permit S$120/block; ACRA AR fee not published; IRAS no filing fee"
+          },
+          "source_url": "https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/",
+          "source_quote": "All companies in Singapore must file annual returns with ACRA on time to avoid penalties of up to $600.",
+          "gaps": "ACRA annual return filing fee dollar amount not published in evidence set.",
+          "id": "singapore-10",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:16.148Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Filing annual returns (ARs) for companies",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 6,
+        "conditional_steps": 0,
+        "upfront": [
+          {
+            "currency": "SGD",
+            "amount": 385
+          }
+        ],
+        "upfront_usd": 300.18183729241116,
+        "fees_unpublished": 3,
+        "longest_wait_days": 10,
+        "longest_wait_min_days": 10,
+        "longest_wait_item": "UA Operator Permit",
+        "times_unpublished": 3,
+        "ongoing_items": 2,
+        "gaps": 7,
+        "sources_confirmed": 8,
+        "sources_total": 10
+      }
+    }
+  ],
+  "recommendation": {
+    "easiest": null,
+    "ranking": [
+      {
+        "place": "Australia",
+        "score": 8,
+        "why": [
+          "3 mandatory steps (rank 1 of 4)",
+          "about US$0 in published upfront fees (rank 1 of 4)",
+          "longest wait: not published",
+          "2 recurring filings (rank 2 of 4)"
+        ]
+      },
+      {
+        "place": "United States",
+        "score": 8,
+        "why": [
+          "3 mandatory steps (rank 1 of 4)",
+          "about US$355 in published upfront fees (rank 3 of 4)",
+          "longest published wait 56 days (rank 3 of 4)",
+          "1 recurring filing (rank 1 of 4)"
+        ]
+      },
+      {
+        "place": "Singapore",
+        "score": 9,
+        "why": [
+          "6 mandatory steps (rank 3 of 4)",
+          "about US$300 in published upfront fees (rank 2 of 4)",
+          "longest published wait 10 days (rank 2 of 4)",
+          "2 recurring filings (rank 2 of 4)"
+        ]
+      },
+      {
+        "place": "United Kingdom",
+        "score": 12,
+        "why": [
+          "6 mandatory steps (rank 3 of 4)",
+          "about US$808 in published upfront fees (rank 4 of 4)",
+          "longest published wait 1 day (rank 1 of 4)",
+          "3 recurring filings (rank 4 of 4)"
+        ]
+      }
+    ],
+    "method": "Each place is ranked on four measured things: number of mandatory steps before opening, total published upfront fees (in USD), the longest published wait (worst case where the source gives a range), and the number of recurring filings. The ranks are added up and the lowest total wins. Only published figures count; a place with unpublished fees or times is not treated as cheaper or faster, it is marked as less certain.",
+    "research": {
+      "easiest": "United States",
+      "ranking": [
+        "United States",
+        "Australia",
+        "United Kingdom",
+        "Singapore"
+      ],
+      "reasons": [
+        "United States: Fewest mandatory aviation steps (one Remote Pilot Certificate + $5 drone registration). No federal business registration requirement for Part 107. No federal mandatory insurance. Free EIN. Recurrent training is free and online. Total identifiable upfront aviation cost approximately $180.",
+        "Australia: Sub-2 kg excluded category requires no pilot licence, only free online operator accreditation (85% quiz pass) and low-cost or free drone registration. Accreditation is valid 3 years and free to renew. No confirmed mandatory insurance requirement from official sources.",
+        "United Kingdom: Well-defined and fully published fee structure. PDRA01 at £524/year is the main recurring cost. Mandatory insurance requirement is explicit and unambiguous. 24-hour target for PDRA01 issuance is fast. Operations Manual obligation adds compliance overhead.",
+        "Singapore: Highest identifiable upfront cost (S$900 Operator Permit + CFMS for first UA type, plus S$265 tracker, plus S$120+ per Activity Permit). Longest structured approval queue (Operator Permit 10 working days, tracker 7 working days, Activity Permit 5 working days). Per-job Activity Permit cost accumulates with volume. UAPL government fee and renewal terms not published."
+      ],
+      "trade_offs": [
+        "United States: State-level business formation costs and timelines vary and are outside federal sources. No federal mandatory insurance, but clients typically require it contractually. State sales tax on aerial photography services varies. Permanent certificate takes 6-8 weeks by mail, though temporary certificate allows immediate legal commercial flying.",
+        "Australia: ASIC company annual review fee not rendered in official sources, creating budget uncertainty. Insurance: no mandatory requirement confirmed from official sources; market and client contracts likely require it. State/territory variations in airspace rules and national park requirements add local complexity.",
+        "United Kingdom: £524/year PDRA01 is a significant recurring cost for a startup. Operations Manual must be maintained or authorisation may be revoked. GVC will stop being issued after 31 December 2027; RPC-L1 training fees set by RAE-PCs and not regulated by CAA. Mandatory insurance requirement is unambiguous and legally certain.",
+        "Singapore: Per-activity Class 1 Activity Permit at S$120/block is an accumulating cost for high-frequency commercial work. UAPL government fee and renewal terms not published, making full budget planning impossible from official sources alone. ACRA annual return fee not published. Insurance requirement unclear from official sources despite strict overall regulatory framework."
+      ]
+    },
+    "agree": null,
+    "caveats": [
+      "Australia and United States tie on the measured scorecard; read the trade-offs to choose.",
+      "United Kingdom: 1 fee is not published, so its total is a floor; 5 approval times are not published; 7 items are flagged unclear or missing.",
+      "Australia: 1 fee is not published, so its total is a floor; 3 approval times are not published; 8 items are flagged unclear or missing.",
+      "United States: 1 approval time is not published; 7 items are flagged unclear or missing.",
+      "Singapore: 3 fees are not published, so its total is a floor; 3 approval times are not published; 7 items are flagged unclear or missing; 2 of 10 sources could not be confirmed on re-reading."
+    ]
+  },
+  "report_markdown": "# Commercial Drone Photography: Legal Start-Up Requirements in Four Jurisdictions\n\n## Executive Summary\n\nLaunching a sub-2 kg commercial drone photography business requires navigating aviation regulation, business registration, and tax compliance simultaneously in all four jurisdictions. The number of mandatory steps, upfront costs, and waiting times differ sharply. The United States offers the fastest path to market—a single federal pilot certificate plus a $5 drone registration—but requires the operator to navigate state-level business formation separately (no single federal portal exists). Australia is a close second, with free operator accreditation online and low drone registration fees, though it has more aviation steps than the US. The United Kingdom is moderately complex: the PDRA01 operational authorisation adds £524/year and an operations-manual obligation that most newcomers find burdensome. Singapore is the most demanding: an Operator Permit (S$700 + S$200 CFMS subscription), a mandatory pilot licence, a per-activity Class 1 Activity Permit (S$120 each), and a UA tracker (S$265) create the highest upfront costs and the longest structured approval queue in this comparison.\n\n---\n\n## Preliminary Notes on Source Limitations\n\nSeveral fee amounts are confirmed precisely from official sources; others are unavailable because official pages render template placeholders (notably ASIC's annual review fees [11][53]) or because CAAS does not publish a UAPL government-set fee [26]. Where a figure cannot be confirmed from an official source, this report says so explicitly rather than estimating.\n\n---\n\n# UNITED KINGDOM\n\n## 1. Business Registration\n\n**Name:** Incorporation of a Private Limited Company (or sole-trader route)\n**Authority:** Companies House [4][36]\n**Status:** Mandatory if operating as a limited company; a sole trader can trade without incorporating, but must still register as self-employed with HMRC.\n\nFor a limited company: the digital filing fee is **£100** (payable by debit/credit card); the company is usually registered within **24 hours** [36]. Paper filing costs £124 and takes 8–10 days [36]. Compulsory identity verification for directors was introduced from 18 November 2025 [5].\n\n**Renewal:** A Confirmation Statement must be filed at least annually; the digital fee is **£50** per 12-month payment period (paper: £110) [33][41]. Filing it late risks a fine of up to £5,000 and possible strike-off [33].\n\n| Item | Fee | Time |\n|---|---|---|\n| Digital incorporation | £100 (one-off) | ~24 hours |\n| Postal incorporation | £124 (one-off) | 8–10 days |\n| Confirmation statement (digital, annual) | £50/year | — |\n\n**Source URLs:** [4] https://www.gov.uk/government/publications/companies-house-fees/companies-house-fees; [36] https://www.gov.uk/limited-company-formation/register-your-company; [33] https://www.gov.uk/guidance/filing-your-companys-confirmation-statement\n\n---\n\n## 2. Tax Registration\n\n**Name:** Corporation Tax / Self-Assessment registration; VAT registration (conditional)\n**Authority:** HM Revenue & Customs (HMRC) [36][37][6]\n**Status:**\n- Corporation Tax: **Mandatory** for limited companies. When registering online with Companies House the company is usually set up for Corporation Tax simultaneously; the company receives a 10-digit Unique Taxpayer Reference (UTR) and must add Corporation Tax services to its business tax account [36][37]. No separate government fee is charged for this.\n- VAT: **Conditional** on taxable turnover exceeding **£90,000** in any rolling 12-month period [6]. A drone photography startup will almost certainly be below this threshold initially; voluntary registration is possible.\n\n**Fee:** No government fee for Corporation Tax or VAT registration.\n**Processing time:** Not published for VAT registration on the official page cited [6].\n**Renewal:** Annual Corporation Tax returns and VAT returns (if registered) are ongoing obligations; no separate annual registration fee.\n\n**Source URLs:** [36] https://www.gov.uk/limited-company-formation/register-your-company; [37] https://www.gov.uk/corporation-tax; [6] https://www.gov.uk/how-vat-works/vat-thresholds\n\n---\n\n## 3. Activity Licence (Core Aviation Requirement)\n\nA sub-2 kg drone used commercially will almost certainly need to fly near or over people and in built-up areas, which takes it out of the simpler Open Category A3 sub-category. The standard commercial route is the **PDRA01 Operational Authorisation** in the Specific Category.\n\n**Name:** PDRA01 Operational Authorisation\n**Authority:** UK Civil Aviation Authority (CAA) [21][34][35]\n**Status:** **Mandatory** for commercial operations in residential, commercial, industrial or recreational areas with a drone between 250 g and 25 kg. For operations purely in Open Category A3 (far from people, away from built-up areas), only an Operator ID and Flyer ID are needed—but this is rarely viable for a paying client brief.\n\n**Fee:** **£524 per year**, no VAT [21][34][35]. This is confirmed by the CAA Scheme of Charges RPAS No. 457, commencement 1 April 2026 [35].\n**Processing time:** CAA aims to issue within **24 hours** of application [34].\n**Renewal period:** 12 months; renewal fee is the same **£524** [47]. Operators can reapply from 28 days before expiry [47].\n\nAdditionally required as part of the Specific Category:\n- **Operator ID** (£12.34/year, annual renewal) [1][7][35]\n- **Flyer ID** (free, valid 5 years) [3][7]\n- An **Operations Manual** that the operator confirms meets CAA requirements (not uploaded but attested) [34]\n\n**Source URLs:** [21] https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/; [34] https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/apply-for-a-pdra01-operational-authorisation/; [35] https://www.caa.co.uk/publication/download/27251; [47] https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/manage-or-reapply-for-your-pdra01/\n\n---\n\n## 4. Premises and Zoning\n\n**Status:** **Not required** as a mandatory step specific to this activity.\n\nA drone photography business can operate from a home address or any registered office without change-of-use planning permission, because the drone is flown at the client's location, not at the operator's premises. The CAA requires PDRA01 operators to get permission from the owner of private land before flying [21], but this is a per-job operational matter, not a premises or planning approval for the business itself.\n\nNo official government page has been found that imposes a planning, zoning, occupancy, fire-safety or signage requirement specific to a home-based drone photography business in England, Wales or Scotland. General local-authority planning rules (permitted development) may apply if the operator converts part of a premises to a workshop or installs structures, but no source in this evidence set addresses that scenario.\n\n**Source:** [21] https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/ (confirms site-permission obligation per flight, not at business premises)\n\n---\n\n## 5. Health, Safety and Environment\n\n**Status:** **Not required** as a sector-specific certificate; general UK health-and-safety law applies.\n\nNo official page in the evidence set imposes a drone-specific hygiene inspection, safety certificate, waste-disposal certificate or environmental permit for a sub-2 kg commercial drone photography operator in the UK. Standard employer health-and-safety obligations under the Health and Safety at Work Act 1974 apply if staff are employed, but no specific government fee or inspection is associated with this activity. Occurrence-reporting under UK Reg (EU) 376/2014 and accident-reporting to the AAIB under UK Reg (EU) 996/2010 are operational obligations under PDRA01 [21], not separate licences.\n\n**Source:** [21] (PDRA01 overview—reporting obligations stated but no H&S certificate required)\n\n---\n\n## 6. People and Qualifications\n\n**Remote pilot qualification**\n**Name:** Level 1 Remote Pilot Certificate (RPC-L1) or General Visual Line of Sight Certificate (GVC)\n**Authority:** CAA-approved Recognised Assessment Entities for Pilot Competence (RAE-PCs) [22]\n**Status:** **Mandatory** for all remote pilots flying under PDRA01 [21]. The pilot must hold a valid UK Flyer ID plus a valid RPC-L1 or GVC [21][22].\n\n**Fee:** The CAA charges **£71** for the Remote Pilot Certificate under the RAE(PC) scheme [35]. Training and assessment fees are set by the RAE-PC (not regulated by CAA and not stated in an official source).\n**Processing time:** Not published by an official source for the certificate itself (the £71 fee covers issuance; practical timing depends on the RAE-PC).\n**Renewal:** GVC and RPC-L1 are valid for **5 years** [22]. The GVC will stop being issued after 31 December 2027; RPC-L1 will remain available [22].\n\n**Employer registration:** No specific employer registration is required for drone operations beyond standard PAYE/HMRC registration if employees are hired (no official source in the evidence set covers this for drone operators specifically).\n\n**Source URLs:** [22] https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/level-1-2-and-3-remote-pilot-certificates-and-gvc/; [21] https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/; [35] https://www.caa.co.uk/publication/download/27251\n\n---\n\n## 7. Insurance and Bonds\n\n**Name:** Third-party liability insurance compliant with Assimilated Regulation (EU) 785/2004\n**Authority:** CAA monitors compliance; policy held with a commercial insurer [2][23]\n**Status:** **Mandatory** for commercial drone operations. The CAA states: \"If you fly a drone or model aircraft for any commercial reason, you must have third party insurance as a minimum\" [2]. Failure to hold sufficient cover is an offence under the Civil Aviation (Insurance) Regulations 2005 (SI 2005 No. 1089) [23]. Under PDRA01, insurance meeting UK Reg (EU) 785/2004 must be held [21].\n\n**Fee:** No government fee; premium is set by the insurer and not published in any official source.\n**Processing time:** Not applicable (private insurer).\n**Renewal:** Annual (tied to policy term). No official renewal fee stated.\n\n**Source URLs:** [2] https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/insurance-requirements/; [23] https://www.caa.co.uk/aircraft-register/registration-information/mandatory-insurance-requirements-for-aircraft/; [21]\n\n---\n\n## 8. Ongoing Filings\n\n| Obligation | Authority | Period | Fee |\n|---|---|---|---|\n| PDRA01 renewal | CAA | Annual (12 months) | £524 |\n| Operator ID renewal | CAA | Annual | £12.34 |\n| Confirmation statement | Companies House | Annual | £50 (digital) |\n| Corporation Tax return + payment | HMRC | Annual (per accounting period) | No filing fee |\n| VAT returns | HMRC | Quarterly (if registered) | No filing fee |\n| Flight records (maintain for CAA audit) | CAA | Ongoing | — |\n| Occurrence/accident reporting | CAA/AAIB | Per event | — |\n\n**Source URLs:** [47][35][33][36][37][6][21]\n\n---\n\n---\n\n# AUSTRALIA\n\n## 1. Business Registration\n\n**Name:** Company registration (Proprietary Limited) or business name registration\n**Authority:** Australian Securities and Investments Commission (ASIC) [12][32]\n**Status:** **Conditional.** A sole trader operating under their own name needs neither company registration nor a separate business name. If operating under a trade name or as a Pty Ltd, registration is required.\n\n- **Company registration fee:** The official ASIC pages render the amount as a template placeholder ({I01}/{I02}) and the actual dollar figure is not stated in the evidence [11][12]. This is a gap in the confirmed data.\n- **Business name (sole trader/partnership):** **$47 for 1 year** or **$108 for 3 years** [32]. Registration confirmation expected within 2 business days (credit card) or 5 business days (BPAY/EFT) [32].\n\n**Renewal:** Business name must be renewed at the same rates ($47/year or $108/3 years) [32]. ASIC sends a renewal notice at least 30 days before the renewal date [32].\n\n**Gap:** The exact company registration fee for a Pty Ltd company is not rendered on the official ASIC pages in the evidence set [11][12][53]. Decision-makers should check https://www.asic.gov.au/for-business-and-companies/companies/register-a-company directly for the current amount, which ASIC adjusts by CPI each 1 July [11].\n\n**Source URLs:** [12] https://www.asic.gov.au/for-business-and-companies/companies/register-a-company; [32] https://business.gov.au/registrations/register-your-business-name; [11] https://www.asic.gov.au/for-business-and-companies/forms-and-fees/fee-payments-and-queries\n\n---\n\n## 2. Tax Registration\n\n**Name:** Australian Business Number (ABN); GST registration (conditional)\n**Authority:** Australian Taxation Office (ATO) [40]\n**Status:**\n- **ABN:** Mandatory before registering a business name or drone with CASA (drone registration requires a person to be at least 16; ABN registration for businesses is handled via the Australian Business Register). No fee is stated for ABN registration in the evidence set.\n- **GST:** **Conditional** on GST turnover reaching **$75,000** (or $150,000 for non-profits) [40]. Once required, the business must register within **21 days** [40]. Most start-up drone photographers will be below the threshold initially; voluntary GST registration is available.\n\n**Fee:** No government fee for ABN or GST registration (official fee not stated for ABN; GST registration is free per ATO guidance [40]).\n**Processing time:** Not published for GST registration in the evidence set.\n**Renewal:** No annual renewal fee for ABN or GST registration.\n\n**Source URLs:** [40] https://www.ato.gov.au/api/public/content/0-1e92db95-a75c-4f4e-a3d4-39f43b1a3b25\n\n---\n\n## 3. Activity Licence (Core Aviation Requirement)\n\nFor a commercial operator using a drone weighing more than 250 g and up to 2 kg, Australia uses the **sub-2 kg excluded category**. No Remote Pilot Licence (RePL) or Remotely Piloted Aircraft Operator's Certificate (ReOC) is required [8][9][30].\n\nRequired steps are:\n\n### a) Individual Aviation Reference Number (ARN)\n**Authority:** CASA [8][9]\n**Status:** Mandatory. An individual ARN and, if operating on behalf of a business, an **organisation ARN** are required [9].\n**Fee:** Not published in the evidence set.\n**Processing time:** Not published in the evidence set.\n\n### b) RPA Operator Accreditation\n**Authority:** CASA [9][30]\n**Status:** **Mandatory** for all commercial/business drone use, regardless of weight [9][30].\n**Fee:** **Free** (online) [9].\n**Processing time:** Not stated explicitly; it is an online quiz requiring a score of 85% or higher, completed in one session [9]. The evidence does not state a government-set processing or approval time beyond this.\n**Renewal:** Every **3 years**; renewal is free [9]. CASA sends an email reminder and operators can renew up to 30 days before expiry [9].\n\n### c) Drone Registration\n**Authority:** CASA [10]\n**Status:** **Mandatory** for any drone used for business purposes, regardless of weight [10].\n**Fee:** Drones weighing **500 g or less: free**. Drones weighing **more than 500 g: $40 registration levy per drone** [10].\n**Registration period:** **12 months** [10].\n**Processing time:** \"A few minutes\" online [10] (no official government-set approval time is stated beyond this description).\n**Penalty for non-compliance:** Fine up to $18,200 [10].\n\n### d) Standard Operating Conditions (sub-2 kg excluded category)\n**Authority:** CASA [8][9]\n**Status:** Mandatory compliance (operational rules, not a separate licence).\n\n**Source URLs:** [8] https://www.casa.gov.au/drones/operator-accreditation-certificate/drone-weight-categories-and-requirements; [9] https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation; [10] https://www.casa.gov.au/drones/drone-registration/registration-requirements; [30] https://www.casa.gov.au/drones/drone-rules/drone-safety-rules\n\n---\n\n## 4. Premises and Zoning\n\n**Status:** **Not required** as a mandatory step specific to this activity from an official source in the evidence set.\n\nCASA's rules govern where the drone is flown (airspace, proximity to airports, national parks, private property), not where the operator's business premises are located [30]. State and territory planning rules may apply to any physical business premises, but no official source in this evidence set imposes a premises or zoning requirement specific to a drone photography business. CASA notes that rules vary by state and territory for some locations [30], but no specific premises approval is identified.\n\n**Source:** [30] https://www.casa.gov.au/drones/drone-rules/drone-safety-rules\n\n---\n\n## 5. Health, Safety and Environment\n\n**Status:** **Not required** as a sector-specific certificate for a sub-2 kg drone photography business from an official source in the evidence set.\n\nNo CASA page or other official Australian government page in the evidence set imposes a hygiene inspection, environmental permit, or safety certificate specific to this activity. CASA's operational rules (standard operating conditions) [9] are aviation-safety obligations, not separate health-and-safety certificates. State/territory work health and safety laws apply generally to any employer but impose no drone-specific certification from the sources available.\n\n**Source:** [9][30]\n\n---\n\n## 6. People and Qualifications\n\n**Status:** Under the sub-2 kg excluded category, **no Remote Pilot Licence (RePL) is required** [8][9]. The operator accreditation (see section 3b) is the qualification requirement.\n\nThe accreditation is obtained by:\n- Obtaining an individual ARN [9]\n- Passing an online quiz with a score of 85% or higher [9]\n- Being at least 16 years old [9][10]\n\nNo formal training course from an approved provider is required (unlike Singapore or the UK Specific Category).\n\n**Employer registration:** No CASA-specific employer registration is required. Standard Australian Business Register and ATO employer registration (PAYG withholding) apply if employees are hired, but these are not stated in an official source as drone-specific requirements.\n\n**Source URLs:** [8][9]\n\n---\n\n## 7. Insurance and Bonds\n\n**Status:** **Unclear / not confirmed as a statutory mandate in the evidence set for the sub-2 kg excluded category.**\n\nNo official CASA page in the evidence set states that third-party liability insurance is legally compulsory for sub-2 kg commercial drone operators operating under the excluded category. The CASA \"Hiring a drone operator\" page advises clients to \"confirm that the operator's insurance covers the services provided\" [31], but frames this as prudential advice rather than a statutory requirement. The source also notes that illegal operations could void insurance [31], but does not state that insurance is a legal prerequisite for the excluded category.\n\n**Gap:** The evidence does not contain an official CASA regulatory page or statutory instrument that makes third-party insurance mandatory for excluded-category operators (unlike the UK, which has an explicit legal mandate). Decision-makers should check the Civil Aviation Safety Regulations Part 101 directly to confirm whether a mandatory insurance requirement exists.\n\n**Source URLs:** [31] https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator\n\n---\n\n## 8. Ongoing Filings\n\n| Obligation | Authority | Period | Fee |\n|---|---|---|---|\n| Drone registration renewal | CASA | Annual | $0 (≤500 g) / $40 (>500 g) |\n| Operator accreditation renewal | CASA | Every 3 years | Free |\n| Business name renewal (if applicable) | ASIC | 1 or 3 years | $47 / $108 |\n| Company annual review fee (if Pty Ltd) | ASIC | Annual | Not published (placeholder in source) |\n| GST/BAS lodgement (if GST-registered) | ATO | Quarterly or annually | No filing fee |\n| Income tax return | ATO | Annual | No filing fee |\n\n**Gap:** The ASIC annual company review fee dollar amount is not rendered in the official sources in the evidence set [11][13][53].\n\n**Source URLs:** [10][9][32][11][13][40]\n\n---\n\n---\n\n# UNITED STATES\n\n## 1. Business Registration\n\n**Name:** State-level entity formation (LLC, corporation, or sole trader)\n**Authority:** Secretary of State (varies by state)\n**Status:** **Conditional.** No federal law requires a business entity to be formed to operate commercially under Part 107 [14][45]. A sole proprietor can fly commercially under their own name. Forming an LLC or corporation is a state-level decision with fees set by each state; no federal government source in the evidence set states a uniform fee or processing time, as this falls entirely outside FAA or IRS jurisdiction.\n\n**Fee:** Varies by state; not published in any federal official source in the evidence set.\n**Processing time:** Varies by state; not published in any federal official source in the evidence set.\n\nHowever, the IRS advises that if a corporation or LLC is being created, the entity must first be formed with the secretary of state before applying for an Employer Identification Number (EIN) [45].\n\n**Gap:** State business registration requirements, fees, and timelines are outside the federal sources in this evidence set. Decision-makers must consult the specific state's Secretary of State website.\n\n**Source URLs:** [45] https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number; [14] https://www.faa.gov/uas/commercial_operators\n\n---\n\n## 2. Tax Registration\n\n**Name:** Employer Identification Number (EIN)\n**Authority:** Internal Revenue Service (IRS) [45]\n**Status:** **Conditional.** An EIN is generally needed to hire employees, operate as a partnership or corporation, or pay certain taxes [45]. A sole proprietor with no employees may use their Social Security Number instead, but an EIN is typically obtained for business banking and commercial credibility.\n\n**Fee:** **Free** [45]. The IRS issues the EIN immediately online if approved [45].\n**Processing time:** Immediate online; phone/fax/mail available for entities outside the US [45].\n**Renewal:** No renewal; an EIN is permanent.\n\n**Sales tax:** Sales tax is a state-level obligation and varies by state. No federal official source in the evidence set addresses state sales tax for drone photography services.\n\n**Source URLs:** [45] https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number\n\n---\n\n## 3. Activity Licence (Core Aviation Requirement)\n\n### a) Remote Pilot Certificate (Part 107)\n**Name:** Remote Pilot Certificate – Small UAS (Part 107)\n**Authority:** Federal Aviation Administration (FAA) [14][42]\n**Status:** **Mandatory** for all commercial drone operations under 55 pounds (approximately 25 kg) [14][42].\n\n**Requirements:**\n- Minimum age: 16 [14][42]\n- Must pass the **Unmanned Aircraft General – Small (UAG)** knowledge test at an FAA-approved Knowledge Testing Center [14][42]\n- Knowledge Testing Centers charge approximately **$175** for the initial test [16]\n- Create an IACRA profile and obtain an FAA Tracking Number (FTN) before the test [42]\n- TSA security background check required [42]\n\n**Processing time:** A temporary certificate is issued at the Knowledge Testing Center upon passing the test; the **permanent certificate takes approximately 6–8 weeks** to arrive by mail [44].\n**Renewal:** The certificate has **no expiration date** [46], but the holder must complete online recurrent training (ALC-677, free) every **24 calendar months** to maintain aeronautical knowledge currency [42][46].\n\n### b) Drone Registration (Part 107)\n**Name:** FAA Part 107 Drone Registration\n**Authority:** FAA [15]\n**Status:** **Mandatory** for commercial drones (all drones except those under 0.55 lbs / 250 g flown recreationally) [15].\n**Fee:** **$5 per drone**, valid for **3 years** [15][14].\n**Processing time:** Not stated in the official source; online registration via FAADroneZone.\n**Renewal:** Every 3 years at $5 [15].\n\n### c) Remote ID compliance\n**Status:** **Mandatory** from September 16, 2023 for any drone requiring FAA registration [14][15]. No separate fee.\n\n### d) Airspace authorisation (LAANC or DroneZone)\n**Authority:** FAA [43]\n**Status:** **Conditional** – required when flying in controlled airspace. LAANC provides near-real-time approvals at no cost [43]. Manual DroneZone applications are available where LAANC is not offered.\n\n**Source URLs:** [14] https://www.faa.gov/uas/commercial_operators; [42] https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot; [15] https://www.faa.gov/uas/getting_started/register_drone; [16] https://www.faa.gov/faq/how-much-does-it-cost-get-remote-pilot-certificate; [44] https://www.faa.gov/faq/how-long-does-it-take-faa-send-out-permanent-license-certificate; [46] https://www.faa.gov/faq/i-dont-see-expiration-date-my-part-107-remote-pilots-certificate-do-i-have-take-test-annually; [43] https://www.faa.gov/uas/getting_started/laanc\n\n---\n\n## 4. Premises and Zoning\n\n**Status:** **Not required** at the federal level. No FAA or federal source in the evidence set imposes a premises or zoning requirement on a drone photography business. State/local zoning rules may apply to any physical business premises, but these are not addressed in the federal sources in this evidence set.\n\n**Source:** [14][43] (neither mentions premises or zoning requirements)\n\n---\n\n## 5. Health, Safety and Environment\n\n**Status:** **Not required** as a drone-specific federal certificate. No FAA, OSHA, or EPA page in the evidence set imposes a hygiene inspection, environmental permit, or specific safety certificate on a sub-2 kg commercial drone photographer. General OSHA obligations apply to employers. No specific obligation is confirmed from an official source in this evidence set.\n\n**Source:** [14] (no health/safety certificate requirement mentioned on FAA commercial operators page)\n\n---\n\n## 6. People and Qualifications\n\n**Remote Pilot Certificate:** As described in section 3a above. The certificate is personal to the pilot and mandatory for any person at the controls under Part 107 [14][42].\n\n**Recurrent training:** Online ALC-677 course (free) every 24 calendar months [42][46].\n\n**Employer registration:** No specific federal drone employer registration exists beyond standard IRS PAYE/EIN obligations if employees are hired [45].\n\n**Source URLs:** [42][46][45]\n\n---\n\n## 7. Insurance and Bonds\n\n**Status:** **Not required** by federal law as a mandatory condition for Part 107 commercial operations.\n\nNo FAA, federal statutory, or other official source in the evidence set makes third-party liability insurance a legal prerequisite for Part 107 commercial drone operators. The FAA pages on commercial operators [14] and drone registration [15] do not mention an insurance mandate. Some clients (particularly public agencies and property owners) contractually require insurance, but this is a commercial, not a regulatory, requirement.\n\n**Gap:** State laws may impose insurance requirements in some contexts, but no federal official source in the evidence set addresses this. Decision-makers should verify state-specific requirements.\n\n**Source URL:** [14] (no insurance requirement stated)\n\n---\n\n## 8. Ongoing Filings\n\n| Obligation | Authority | Period | Fee |\n|---|---|---|---|\n| FAA drone registration renewal | FAA | Every 3 years | $5/drone |\n| Recurrent aeronautical knowledge (ALC-677) | FAA | Every 24 calendar months | Free |\n| Federal income tax return | IRS | Annual | No filing fee |\n| State/local business filings | Varies by state | Varies | Varies |\n| LAANC authorisations | FAA | Per flight in controlled airspace | Free |\n\n**Source URLs:** [15][42][46][45]\n\n---\n\n---\n\n# SINGAPORE\n\n## 1. Business Registration\n\n**Name:** Company registration (Private Limited – Pte Ltd) or sole proprietorship/partnership\n**Authority:** Accounting and Corporate Regulatory Authority (ACRA) [20][29]\n**Status:** **Mandatory** to register with ACRA before conducting business in Singapore.\n\nFor a **Pte Ltd:**\n- Reserve business name: **S$15** [29]\n- Register new business entity (company): **S$300** [29]\n- Total upfront: **S$315** (excluding professional/agent fees)\n\nFor a **sole proprietorship/partnership:**\n- Reserve business name: **S$15** [20]\n- Register new business entity: **S$100** [20]\n- Total upfront: **S$115**\n\n**Processing time:** Not published in the evidence set for either entity type.\n**Renewal:** Annual return filing required (see section 8). The exact ACRA annual return fee for a Pte Ltd is **not published** in the evidence sources; the ACRA page states penalties of up to S$600 for late filing [38][48] but does not state the standard filing fee amount.\n\n**Source URLs:** [29] https://www.acra.gov.sg/manage/companies/service-transaction-fees/; [20] https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/service-transaction-fees/; [38] https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/; [48] https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/deadline-requirements/\n\n---\n\n## 2. Tax Registration\n\n**Name:** Corporate Income Tax registration; GST registration (conditional)\n**Authority:** Inland Revenue Authority of Singapore (IRAS) [49][52]\n**Status:**\n- **Corporate Income Tax:** Mandatory. Singapore companies pay a flat rate of **17%** of chargeable income [49]. Filing Form C-S/C with IRAS annually by **30 November** each year [49], separate from the ACRA annual return.\n- **GST:** **Conditional** on taxable turnover exceeding **S$1 million** in a calendar year (retrospective) or expected to exceed S$1 million in the next 12 months (prospective) [52]. A startup drone photographer is unlikely to reach this threshold quickly. Late registration carries a fine of up to S$10,000 and a 10% penalty on GST due [52].\n\n**Fee:** No government fee for corporate income tax or GST registration.\n**Processing time:** Not published in the evidence set.\n**Renewal:** Annual IRAS Form C-S filing by 30 November; no annual registration fee for income tax or GST.\n\n**Source URLs:** [49] https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/basic-guide-to-corporate-income-tax-for-companies; [52] https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst\n\n---\n\n## 3. Activity Licence (Core Aviation Requirement)\n\nFor a commercial drone photographer in Singapore flying a UA under 2 kg, all of the following are required simultaneously [17][18]:\n\n### a) UA Operator Permit\n**Name:** UA Operator Permit\n**Authority:** Civil Aviation Authority of Singapore (CAAS) [18]\n**Status:** **Mandatory** for all business UA operations [17][18].\n**Fee:**\n- 1st UA type: **S$700**\n- Additional UA of a different type: **S$500**\n- Renewal: **S$300**\n- Plus compulsory **S$200 CFMS subscription fee** collected before grant of permit [18]\n\n**Total initial cost (1 UA type): S$900** (S$700 + S$200 CFMS)\n**Processing time:** **10 working days** (subject to complexity and completeness of documents) [18]\n**Renewal period:** **1 year** (annual) [18]. Renewal fee: S$300 + S$200 CFMS = **S$500/year** [18]\n\n### b) Class 1 Activity Permit\n**Name:** Class 1 Activity Permit\n**Authority:** CAAS [18]\n**Status:** **Mandatory** for every commercial activity (since aerial photography for paying clients is not recreational or educational) [17][18]. Not valid without an Operator Permit [18].\n**Fee:** **S$120 per activity or block of same activity**; S$45 for repeat/variation [18].\n**Processing time:** **5 working days** [18]\n**Renewal:** Per activity; no annual renewal as such—each engagement or block of activities requires a permit.\n\n### c) CFMS UA Tracker (hardware)\n**Name:** Centralised Flight Management System (CFMS) UA Tracker\n**Authority:** CAAS [18]\n**Status:** **Mandatory** for UA weighing more than 250 g before operation [18].\n**Fee:** **S$265** (subject to prevailing GST) [18]. The FlyItSafe mobile app is free [18].\n**Processing time (including collection):** **7 working days** [18]\n\n### d) UA Registration (if UA > 250 g)\n**Name:** UA Registration\n**Authority:** CAAS [17]\n**Status:** **Mandatory** for business use if the UA weighs more than 250 g [17].\n**Fee/Processing time:** Not published in the evidence set. The CAAS requirements page states registration is required [17] but no fee is stated.\n\n**Source URLs:** [17] https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/; [18] https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/\n\n---\n\n## 4. Premises and Zoning\n\n**Status:** **Not required** as a mandatory step from an official source in the evidence set.\n\nACRA business registration requires a registered address in Singapore, but no official source in this evidence set imposes zoning, change-of-use, occupancy or fire-safety certification specific to a drone photography business operating from home or an office. Flying is conducted at client sites. CAAS rules govern where flights occur, not business premises.\n\n**Source:** [17][28] (GoBusiness eAdviser page confirms the activity but states no premises/zoning requirement)\n\n---\n\n## 5. Health, Safety and Environment\n\n**Status:** **Not required** as a drone-specific certificate from an official source in the evidence set.\n\nNo CAAS or other official Singapore government page in the evidence set imposes an environmental permit, hygiene inspection, or health-and-safety certification specific to this activity. CAAS operational requirements are aviation-safety rules, not occupational health certificates.\n\n**Source:** [17][18]\n\n---\n\n## 6. People and Qualifications\n\n### a) UA Pilot Licence (UAPL)\n**Name:** Unmanned Aircraft Pilot Licence (UAPL)\n**Authority:** CAAS [26]\n**Status:** **Mandatory** for all commercial/non-recreational/non-educational UA operations, regardless of weight [26][17].\n\n**Process:**\n1. Optional training with a CAAS-approved UA Training Organisation (UATO) — CAAS does not set or publish training fees; they vary by UATO [26]\n2. Register for a CAPELS account and obtain a PID\n3. Pass CAAS theory test\n4. Pass practical assessment by an Authorised Flight Examiner (AFE)\n5. Submit application on CAPELS\n6. Receive digital licence on the SGFlight app [26]\n\n**Fee:** No CAAS government fee is published in the evidence set for the UAPL itself [26]. Training and assessment fees are set by UATOs and vary [26].\n**Processing time:** Not published in the evidence set.\n**Renewal period and fee:** Not published in the evidence set.\n**Minimum age:** 16 at point of application [26].\n\n### b) UA Basic Training Certificate (UABTC)\n**Name:** UA Basic Training Certificate\n**Authority:** CAAS-approved UA Basic Training Organisations (UABTOs) [19]\n**Status:** **Conditional** – required for recreational/educational operators of UA weighing more than 1.5 kg and up to 7 kg [19]. For commercial operators, the UAPL requirement applies instead [26]. However, since the sub-2 kg drone is used commercially, the UAPL (not the UABTC) is the applicable requirement.\n**Fee:** Set by UABTOs; CAAS does not regulate [19].\n\n**Source URLs:** [26] https://www.caas.gov.sg/unmanned-aircraft/unmanned-aircraft-pilot-licence/; [19] https://www.caas.gov.sg/unmanned-aircraft/ua-basic-training/; [17]\n\n---\n\n## 7. Insurance and Bonds\n\n**Status:** **Unclear – no written mandatory insurance requirement found in official sources in the evidence set.**\n\nThe CAAS requirements page [17], Operator Permit page [18], UAPL page [26], and Singapore legislation list [51] do not state that third-party liability insurance is a legal prerequisite for a commercial drone operator. The Operator Permit assessment covers \"organisational setup, safety procedures, airworthiness of each UA, and competency of personnel\" [18] but does not mention insurance as an assessed criterion.\n\n**Gap:** No official CAAS page or Air Navigation Act provision in the evidence set explicitly mandates third-party liability insurance for commercial drone operators in Singapore. This is a material gap. Decision-makers must review the Air Navigation (Amendment) Regulations and CAAS Advisory Circular AC 101-2-1 (Rev 8, dated 3 Jul 2025) [27] directly to confirm whether insurance is required, as the evidence set does not contain the text of those instruments.\n\n**Source URLs:** [17][18][51][27]\n\n---\n\n## 8. Ongoing Filings\n\n| Obligation | Authority | Period | Fee |\n|---|---|---|---|\n| Operator Permit renewal | CAAS | Annual | S$300 + S$200 CFMS = S$500 |\n| Class 1 Activity Permit (per job) | CAAS | Per activity/block | S$120 (or S$45 repeat) |\n| ACRA Annual Return | ACRA | Annual | Not published (penalty up to S$600 for late) |\n| IRAS Form C-S/C (Corporate Tax) | IRAS | Annual (by 30 Nov) | No filing fee |\n| GST returns (if registered) | IRAS | Quarterly | No filing fee |\n| CFMS subscription renewal (embedded in Operator Permit renewal) | CAAS | Annual | S$200 (included above) |\n\n**Source URLs:** [18][38][48][49][52]\n\n---\n\n---\n\n# Comparative Summary Table\n\n| Category | United Kingdom | Australia | United States | Singapore |\n|---|---|---|---|---|\n| **Business registration** | £100 (Pty Ltd) + £50/yr confirmation | Not published (Pty Ltd ASIC fee); $47–108/yr business name | State-level; not federal | S$300 (Pte Ltd) + S$15 name |\n| **Tax registration** | Free (CT auto at incorporation); VAT if >£90k | Free (GST if >$75k AUD) | Free EIN; state sales tax varies | Free; GST if >S$1M |\n| **Core aviation licence** | PDRA01: £524/yr + Operator ID £12.34/yr | Operator accreditation: free; drone reg: free or $40 | Part 107 cert: ~$175 test; drone reg: $5 | Operator Permit: S$900 initial; Activity Permit: S$120/job; CFMS tracker: S$265 |\n| **Pilot qualification** | RPC-L1 or GVC (£71 cert fee; training extra) | None for sub-2 kg excluded category | FAA knowledge test: ~$175 | UAPL (govt fee not published; UATO training fee not regulated) |\n| **Mandatory insurance** | Yes – third-party (EU 785/2004) | Unclear (not confirmed in official sources) | No federal mandate | Unclear (not confirmed in official sources) |\n| **Premises/zoning** | Not required | Not required | Not required | Not required |\n| **H&S certificate** | Not required | Not required | Not required | Not required |\n| **Ongoing aviation renewal** | PDRA01: £524/yr; Operator ID: £12.34/yr | Drone reg: $40/yr (>500g); accreditation: free every 3 yrs | Drone reg: $5/3 yrs; recurrent online: free every 2 yrs | Operator Permit: S$500/yr; Activity Permit: S$120/block |\n\n---\n\n# Recommendation\n\n## Easiest to Start: **United States**\n\n**Ranking (easiest to hardest):** United States → Australia → United Kingdom → Singapore\n\n### United States — Why It Is Easiest\n\nThe US has the fewest mandatory aviation steps: one federal pilot certificate, one drone registration ($5), and free online recurrent training. There is no federal business registration requirement, no mandatory insurance under federal law, and no premises or zoning hurdle. The main bottleneck is the Knowledge Testing Center exam (~$175), and the permanent certificate takes 6–8 weeks by mail [44], though a temporary certificate is available immediately at the testing center. A newcomer can be legally operational within days (temporary certificate + same-day drone registration). The total identifiable upfront aviation cost is approximately **$180** (test + registration).\n\n**Trade-offs for the US:**\n- The 6–8 week permanent certificate wait can be inconvenient, though temporary certificates allow legal commercial flying in the interim.\n- State-level business registration (LLC, etc.) adds steps and costs that vary by state and are not covered by any federal source.\n- No federal insurance mandate may leave the operator exposed commercially; most clients will require proof of insurance contractually.\n- State sales tax on aerial photography services varies and requires separate research.\n- For flights near airports, LAANC is free but adds a per-flight airspace-authorisation step [43].\n\n### Australia — Second Easiest\n\nAustralia's sub-2 kg excluded category is well-designed for commercial entry: free operator accreditation, low or no drone registration fee, no pilot licence required. The main costs are ASIC business registration (amounts not published in official sources for Pty Ltd) and the drone registration levy ($40 for a >500 g drone). The absence of a confirmed mandatory insurance requirement is a planning risk.\n\n**Trade-offs for Australia:**\n- ASIC annual review fees are not confirmed in official sources; this creates budget uncertainty.\n- Insurance: no mandatory requirement confirmed; market expectation and client contracts likely require it.\n- State/territory variations in airspace rules and national park requirements add local complexity [30].\n- Operator accreditation is free but requires passing an 85% threshold quiz [9]; the standard operating conditions must be strictly followed.\n\n### United Kingdom — Third\n\nThe UK pathway is well-defined and official fees are fully published, which is an advantage for planning. However, the PDRA01 adds £524/year of regulatory overhead, requires an Operations Manual, and comes with ongoing audit and reporting obligations [21][34]. The RPC-L1/GVC qualification requires approved training (fees set by RAE-PCs, not regulated or published by CAA). The mandatory insurance requirement is unambiguous.\n\n**Trade-offs for the UK:**\n- £524/year PDRA01 is a significant ongoing cost for a startup, on top of £12.34/year Operator ID.\n- The Operations Manual obligation imposes compliance overhead; if the manual is not maintained, the CAA may revoke authorisation [21].\n- The 24-hour target for PDRA01 issuance is fast once prerequisites are met; total setup time is realistic within a week.\n- Mandatory insurance is explicit and unambiguous, eliminating legal uncertainty.\n- Companies House processes are fast and transparent.\n\n### Singapore — Most Demanding\n\nSingapore has the highest identifiable upfront cost (S$900 for Operator Permit + CFMS for one UA type, plus S$265 for the tracker, plus S$120 per activity permit), the most complex approval chain (Operator Permit takes 10 working days, CFMS tracker 7 working days, Activity Permit 5 working days—these cannot all run in parallel, and the CFMS must be in place before the Operator Permit is granted [18]), and an ongoing per-job Activity Permit cost that accumulates with every new client engagement.\n\n**Trade-offs for Singapore:**\n- The UAPL government fee is not published [26], making budget planning difficult.\n- Annual Operator Permit renewal is S$500 (S$300 + S$200 CFMS), regardless of revenue.\n- Per-activity Class 1 Activity Permit at S$120/block makes high-frequency commercial shooting expensive regulatorily.\n- The CAAS eSOMS/CorpPass/SingPass system is well-structured for submitting applications, reducing administrative confusion.\n- The UA tracker hardware (S$265 + GST) is a one-time operational requirement that must be physically collected within 7 working days [18].\n- The ACRA annual return filing fee for a Pte Ltd is not stated in official sources in this evidence set, adding budget uncertainty.\n- No confirmed mandatory insurance requirement from official sources—a gap for a jurisdiction with relatively strict aviation regulation.\n\n---",
+  "research": {
+    "run_id": "01a1cdfd-1f28-72e0-9931-f58f941e41de",
+    "mode": "deep",
+    "started_at": "2026-11-12T04:21:20Z",
+    "completed_at": "2026-11-12T04:32:10Z",
+    "termination_reason": "planner_done",
+    "iterations": 14,
+    "sources_read": 53,
+    "citations": [
+      "https://www.caa.co.uk/drones/open-category/getting-started-with-drones-and-model-aircraft/get-an-operator-id/",
+      "https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/insurance-requirements/",
+      "https://www.caa.co.uk/drones/open-category/getting-started-with-drones-and-model-aircraft/get-a-flyer-id/",
+      "https://www.gov.uk/government/publications/companies-house-fees/companies-house-fees",
+      "https://www.gov.uk/government/news/companies-house-fees-are-changing-from-1-february-2026",
+      "https://www.gov.uk/how-vat-works/vat-thresholds",
+      "https://www.caa.co.uk/drones/open-category/getting-started-with-drones-and-model-aircraft/flyer-ids-and-operator-ids/",
+      "https://www.casa.gov.au/drones/operator-accreditation-certificate/drone-weight-categories-and-requirements",
+      "https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation",
+      "https://www.casa.gov.au/drones/drone-registration/registration-requirements",
+      "https://www.asic.gov.au/for-business-and-companies/forms-and-fees/fee-payments-and-queries",
+      "https://www.asic.gov.au/for-business-and-companies/companies/register-a-company",
+      "https://www.asic.gov.au/for-business-and-companies/companies/company-annual-review",
+      "https://www.faa.gov/uas/commercial_operators",
+      "https://www.faa.gov/uas/getting_started/register_drone",
+      "https://www.faa.gov/faq/how-much-does-it-cost-get-remote-pilot-certificate",
+      "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+      "https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/",
+      "https://www.caas.gov.sg/unmanned-aircraft/ua-basic-training/",
+      "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/service-transaction-fees/",
+      "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/pdra01-overview/",
+      "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/level-1-2-and-3-remote-pilot-certificates-and-gvc/",
+      "https://www.caa.co.uk/aircraft-register/registration-information/mandatory-insurance-requirements-for-aircraft/",
+      "https://www.caa.co.uk/drones/open-category/drone-code/getting-what-you-need-to-fly-legally/",
+      "https://www.caa.co.uk/drones/specific-category/specific-category-overview/",
+      "https://www.caas.gov.sg/unmanned-aircraft/unmanned-aircraft-pilot-licence/",
+      "https://www.caas.gov.sg/resources/regulatory-requirements-and-guidelines/unmanned-aircraft/",
+      "https://eadviser.gobusiness.gov.sg/conductinganaerialphotographyorvideography",
+      "https://www.acra.gov.sg/manage/companies/service-transaction-fees/",
+      "https://www.casa.gov.au/drones/drone-rules/drone-safety-rules",
+      "https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator",
+      "https://business.gov.au/registrations/register-your-business-name",
+      "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+      "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/apply-for-a-pdra01-operational-authorisation/",
+      "https://www.caa.co.uk/publication/download/27251",
+      "https://www.gov.uk/limited-company-formation/register-your-company",
+      "https://www.gov.uk/corporation-tax",
+      "https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/",
+      "https://www.caas.gov.sg/resources/media-and-publication/newsroom/new-training-requirements-for-unmanned-aircraft-operations/",
+      "https://www.ato.gov.au/api/public/content/0-1e92db95-a75c-4f4e-a3d4-39f43b1a3b25",
+      "https://changestoukcompanylaw.campaign.gov.uk/changes-to-companies-house-fees/",
+      "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+      "https://www.faa.gov/uas/getting_started/laanc",
+      "https://www.faa.gov/faq/how-long-does-it-take-faa-send-out-permanent-license-certificate",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.faa.gov/faq/i-dont-see-expiration-date-my-part-107-remote-pilots-certificate-do-i-have-take-test-annually",
+      "https://www.caa.co.uk/drones/specific-category/pdra01-operational-authorisation/manage-or-reapply-for-your-pdra01/",
+      "https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/deadline-requirements/",
+      "https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/basic-guide-to-corporate-income-tax-for-companies",
+      "https://www.caas.gov.sg/unmanned-aircraft/",
+      "https://www.caas.gov.sg/resources/legislation/",
+      "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst",
+      "https://www.asic.gov.au/for-business-and-companies/forms-and-fees/all-fees/fees-for-commonly-lodged-documents"
+    ],
+    "official_domains": [
+      "caas.gov.sg",
+      "gobusiness.gov.sg",
+      "bizfile.gov.sg",
+      "asic.gov.au",
+      "casa.gov.au",
+      "faa.gov",
+      "business.gov.au",
+      "gov.uk",
+      "caa.co.uk",
+      "sba.gov",
+      "irs.gov",
+      "usa.gov"
+    ],
+    "questions": [
+      "UK: What is the official fee for a PDRA01 operational authorisation from CAA? Is there a CAA fee schedule for RPAS?",
+      "Australia: What is the precise processing time stated by CASA for the excluded category operator accreditation?",
+      "Singapore: Does CAAS require third-party liability insurance for commercial drone operators? Is there a written requirement in the UAS regulations?",
+      "Singapore: What is the exact fee for ACRA annual return for a private limited company (Pte Ltd)?",
+      "US: Is there any federal requirement to register a business entity for Part 107 commercial drone operations (beyond FAA registration)?",
+      "All: What are the premises and zoning requirements for a drone photography business (home-based vs office) in each jurisdiction?",
+      "UK: What is the CAA PDRA01 annual renewal fee?",
+      "Australia: What is the CASA drone registration fee for a sub-2kg commercial drone?"
+    ]
+  },
+  "fx": {
+    "base": "USD",
+    "date": "2026-11-11",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "rates": {
+      "EUR": 1.1127,
+      "USD": 1,
+      "JPY": 0.0062800541821876055,
+      "CZK": 0.04564361309377307,
+      "DKK": 0.14884623102133637,
+      "GBP": 1.330694348106867,
+      "HUF": 0.003047825134217158,
+      "PLN": 0.2526681502338889,
+      "RON": 0.20817197058988604,
+      "SEK": 0.10068772056827437,
+      "CHF": 1.2050032488628981,
+      "ISK": 0.00813377192982456,
+      "NOK": 0.10482830090913374,
+      "TRY": 0.019908856193538344,
+      "AUD": 0.6859203550733571,
+      "BRL": 0.179969916056092,
+      "CAD": 0.7025064713681419,
+      "CNY": 0.1499090602896598,
+      "HKD": 0.12745996471855026,
+      "IDR": 0.00005502063953890855,
+      "ILS": 0.3153017852082743,
+      "INR": 0.010672971780459263,
+      "KRW": 0.0007479984135200361,
+      "MXN": 0.05359232840292261,
+      "MYR": 0.24548824074482636,
+      "NZD": 0.5583600963468487,
+      "PHP": 0.0158101138123588,
+      "SGD": 0.7796930838763927,
+      "THB": 0.02968228986048497,
+      "ZAR": 0.06037209655628923
+    }
+  },
+  "checked_at": "2026-11-12T07:13:16.183Z",
+  "endpoints_used": [
+    {
+      "name": "TinySearch",
+      "how": "Finds the government sites that cover this activity in each place before any research is paid for. Those sites steer the research and define what counts as an official source."
+    },
+    {
+      "name": "TinyResearch",
+      "how": "Does the digging: one deep run reads the official rules for every place against the same eight categories and returns a cited report plus the structured data behind this table."
+    },
+    {
+      "name": "TinyFetch",
+      "how": "Re-reads every cited page live and tests each fee, processing time and quote against it. The checked date and the confirmed / not confirmed mark on each row come from this step."
+    }
+  ],
+  "warnings": []
+}

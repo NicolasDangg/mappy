@@ -1,0 +1,1642 @@
+{
+  "id": "01a1cdf1-2799-79f1-97c0-c7758fe241ea",
+  "activity": "Open a small café that serves coffee and prepares hot food on the premises, with seating for about 30 customers, no alcohol.",
+  "places": [
+    {
+      "place": "Singapore",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Sole Proprietorship Registration (Bizfile) incl. name application",
+          "authority": "Accounting and Corporate Regulatory Authority (ACRA)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 115,
+            "currency": "SGD",
+            "basis": "one-off per registration period (1 year)",
+            "text": "One-year registration: $115 ($15 name application fee and $100 registration fee)"
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 60,
+            "text": "Most registrations are approved soon after payment. Complex registrations may take up to 15 working days. Registrations that need extra approval from referral authorities take 14 to 60 days."
+          },
+          "renewal": {
+            "period": "1 year or 3 years",
+            "fee_text": "One-year renewal: $30; Three-year renewal: $90 (non-refundable)"
+          },
+          "source_url": "https://www.acra.gov.sg/register/business/choosing-business-structure/",
+          "source_quote": "One-year registration: $115 ($15 name application fee and $100 registration fee); Three-year registration: $175 ($15 name application fee and $160 registration fee).",
+          "gaps": null,
+          "id": "singapore-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": false,
+              "quote": true
+            },
+            "page_title": "Step 2: Choosing a business structure",
+            "note": "The page supports this item, but the processing time is not stated there in those words."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "GST Registration",
+          "authority": "Inland Revenue Authority of Singapore (IRAS)",
+          "status": "conditional",
+          "condition": "Mandatory only if taxable turnover exceeds S$1 million in a calendar year (retrospective view) or is expected to exceed S$1 million in the next 12 months (prospective view). A new small café will almost certainly be below this threshold.",
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": null,
+            "text": "No registration fee stated on official IRAS page"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Ongoing; no fixed renewal",
+            "fee_text": null
+          },
+          "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst",
+          "source_quote": "You must register for GST if your taxable turnover is: 1. Under the retrospective view, more than $1 million at the end of the calendar year, or 2. Under the prospective view, expected to be more than $1 million in the next 12 months",
+          "gaps": "IRAS does not publish a processing time for GST registration on the page cited. No registration fee is stated.",
+          "id": "singapore-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "IRAS | Do I need to register for GST",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Food Shop Licence",
+          "authority": "Singapore Food Agency (SFA) via GoBusiness",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 195,
+            "currency": "SGD",
+            "basis": "per year",
+            "text": "The Food Shop Licence costs $195 and is valid for 1 year."
+          },
+          "processing_time": {
+            "min_days": 7,
+            "max_days": 7,
+            "text": "All completed applications will be reviewed by SFA within 7 working days."
+          },
+          "renewal": {
+            "period": "1 year",
+            "fee_text": "Food Shop Licence | $195 per year"
+          },
+          "source_url": "https://www.sfa.gov.sg/food-retail/licence-permit/application-process-fees-for-licence-permit-for-food-retail",
+          "source_quote": "The Food Shop Licence costs $195 and is valid for 1 year. All completed applications will be reviewed by SFA within 7 working days.",
+          "gaps": "If documents are not submitted within 2 months the application lapses; GIRO approval for auto-payment can take up to 8 weeks. Pre-licensing inspection must be booked at least 5 working days in advance.",
+          "id": "singapore-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Application Process & Fees for Licence / Permit for Food Retail",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "URA Change of Use Application (if required)",
+          "authority": "Urban Redevelopment Authority (URA)",
+          "status": "conditional",
+          "condition": "Required only if the existing approved use of the premises is not already 'restaurant' or within the group that includes shop/showroom/restaurant in a commercial building. No planning permission required to convert between shop, showroom and restaurant in commercial buildings subject to authorisation conditions.",
+          "fee": {
+            "amount": 500,
+            "currency": "SGD",
+            "basis": "per application, non-refundable",
+            "text": "The processing fees for a change of use application is $500. Processing fees are collected to account for the efforts done to process the case and are non-refundable."
+          },
+          "processing_time": {
+            "min_days": 10,
+            "max_days": null,
+            "text": "It generally takes 10 working days to assess your application. More time may be required if the submission is incomplete and if we need to consult other agencies for your application."
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/",
+          "source_quote": "The processing fees for a change of use application is $500. It generally takes 10 working days to assess your application.",
+          "gaps": "Operator must check URA SPACE for existing approved use before committing to lease. Land Betterment Charge may apply. Some locations (named problematic traffic areas) are unlikely to be approved.",
+          "id": "singapore-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Changing the Use of Your Property",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "SCDF Fire Certificate",
+          "authority": "Singapore Civil Defence Force (SCDF)",
+          "status": "conditional",
+          "condition": "Required only for public buildings with an occupant load of more than 200 persons. A 30-seat café does not meet this threshold and therefore does not require a Fire Certificate.",
+          "fee": {
+            "amount": 33,
+            "currency": "SGD",
+            "basis": "per storey (for applicable buildings only)",
+            "text": "Non-Residential | 33 (Fee per storey ($))"
+          },
+          "processing_time": {
+            "min_days": 3,
+            "max_days": 3,
+            "text": "Please be informed that the outcome of the application will be notified within 3 business days (subject to complete application)."
+          },
+          "renewal": {
+            "period": "36 months (from 1 April 2026 onwards)",
+            "fee_text": "Revised application fees payable once every three years when all FC requirements have been complied with"
+          },
+          "source_url": "https://www.scdf.gov.sg/fire-safety-services-listing/permits-and-certifications/fire-certificate",
+          "source_quote": "Public Building (except for a residential building) that has an occupant load of more than 200 persons... is required to apply and obtain a Fire Certificate (FC).",
+          "gaps": "Not required for a 30-seat café. Noted here for completeness.",
+          "id": "singapore-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": false
+            },
+            "page_title": "Fire Certificate",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "Environmental Sanitation (ES) Regime / Environmental Sanitation Programme (ESP)",
+          "authority": "National Environment Agency (NEA)",
+          "status": "conditional",
+          "condition": "Mandatory for selected Food Shops including coffee shops, eating house canteens, food courts and private markets. Whether a standalone 30-seat café is 'selected' is determined by NEA and is unclear from the official pages cited.",
+          "fee": {
+            "amount": null,
+            "currency": null,
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.sfa.gov.sg/food-retail/licence-permit/requirements-for-licence-permit-for-food-retail",
+          "source_quote": "Selected retail foodshops are required to implement the mandatory ES regime and submit the Environmental Sanitation Programme (ESP) within 1 month to NEA.",
+          "gaps": "Official pages do not specify which standalone café types trigger the ES regime beyond named categories. No fee or processing time published.",
+          "id": "singapore-6",
+          "check": {
+            "status": "page_live",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Requirements for Licence / Permit for Food Retail",
+            "note": "The page is live, but we could not find the quoted wording in its text. It may sit in a PDF, table or fee calculator. Open the page to confirm."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "WSQ Food Safety Course (FSC) Level 1 for all Food Handlers",
+          "authority": "SFA / SkillsFuture Singapore (SSG)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": "per person per course",
+            "text": "Fee not published on official SFA pages; course offered by accredited training providers"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Upon Food Handlers' completion of the WSQ FSC Level 1, SkillsFuture Singapore (SSG) will share the relevant data with SFA within 2 weeks."
+          },
+          "renewal": {
+            "period": "Retraining: 1st within 5 years; subsequent within 10 years",
+            "fee_text": null
+          },
+          "source_url": "https://www.sfa.gov.sg/food-handler-hygiene-officer/requirements-for-food-handler-hygiene-officer/requirements-for-food-handlers",
+          "source_quote": "Food Handlers from both retail and non-retail food businesses are required to pass the WSQ Food Safety Course (FSC) Level 1.",
+          "gaps": "Course fee is not stated on the official SFA page; set by accredited training providers.",
+          "id": "singapore-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Requirements for Food Handlers",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "CPF Submission Number (CSN) — Employer Registration",
+          "authority": "Central Provident Fund Board (CPFB)",
+          "status": "mandatory",
+          "condition": "Required for employers with Singapore Citizen or Permanent Resident employees",
+          "fee": {
+            "amount": 0,
+            "currency": "SGD",
+            "basis": "one-off",
+            "text": "No fee stated on official page"
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 1,
+            "text": "If your CSN application is approved, you can proceed to submit your CPF contribution the next calendar day via CPF EZPay."
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.cpf.gov.sg/employer/making-cpf-contributions/applying-for-a-cpf-submission-number",
+          "source_quote": "All employers need a CPF Submission Number (CSN) to submit their CPF contributions.",
+          "gaps": null,
+          "id": "singapore-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "CPFB | Applying for a CPF Submission Number",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "Work Injury Compensation (WIC) Insurance",
+          "authority": "Ministry of Manpower (MOM)",
+          "status": "mandatory",
+          "condition": "Mandatory for all employees doing manual work (regardless of salary) and all non-manual employees earning S$2,600 or less per month. Café kitchen and service staff performing manual work must be covered.",
+          "fee": {
+            "amount": null,
+            "currency": "SGD",
+            "basis": "annual premium set by designated insurer",
+            "text": "Premium set by designated insurers; not published as a fixed government fee"
+          },
+          "processing_time": {
+            "min_days": 21,
+            "max_days": null,
+            "text": "Finalise all insurance contracts and provide the information required to your insurer at least 21 days before policy commencement."
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "Premium varies; set by designated insurer"
+          },
+          "source_url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/work-injury-compensation-insurance",
+          "source_quote": "All employees doing manual work, regardless of salary level. Failure to provide adequate insurance is an offence carrying a fine of up to $10,000 or jail of up to 12 months, or both.",
+          "gaps": "Specific premium amount not published by MOM; set by designated insurer.",
+          "id": "singapore-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Work injury compensation insurance",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "ACRA Business Registration Renewal",
+          "authority": "ACRA",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 30,
+            "currency": "SGD",
+            "basis": "per year (or $90 for 3 years)",
+            "text": "Fee (non-refundable) * One-year renewal: $30 * Three-year renewal: $90"
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 1,
+            "text": "Approval time | Immediate"
+          },
+          "renewal": {
+            "period": "1 year or 3 years",
+            "fee_text": "One-year: $30; Three-year: $90"
+          },
+          "source_url": "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/key-requirements-common-offences/renewing-your-registration/",
+          "source_quote": "You can renew up to 60 days before the expiry date and choose a one-year or three-year renewal period.",
+          "gaps": null,
+          "id": "singapore-10",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Renewing your registration for sole proprietorships or partnerships",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "SFA Food Shop Licence Annual Renewal",
+          "authority": "SFA",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 195,
+            "currency": "SGD",
+            "basis": "per year",
+            "text": "Food Shop Licence | $195 per year"
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 1,
+            "text": "Your licence is renewed immediately upon payment of the renewal fee."
+          },
+          "renewal": {
+            "period": "1 year",
+            "fee_text": "$195 per year"
+          },
+          "source_url": "https://www.sfa.gov.sg/food-retail/licence-permit/update-renew-cancel-licence-permit-for-food-retail",
+          "source_quote": "Food Shop Licence | $195 per year. Your licence is renewed immediately upon payment of the renewal fee.",
+          "gaps": null,
+          "id": "singapore-11",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Update, Renew, Cancel Licence / Permit for Food Retail",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 5,
+        "conditional_steps": 4,
+        "upfront": [
+          {
+            "currency": "SGD",
+            "amount": 310
+          }
+        ],
+        "upfront_usd": 241.70485600168175,
+        "fees_unpublished": 2,
+        "longest_wait_days": 60,
+        "longest_wait_min_days": 1,
+        "longest_wait_item": "Sole Proprietorship Registration (Bizfile) incl. name application",
+        "times_unpublished": 1,
+        "ongoing_items": 5,
+        "gaps": 7,
+        "sources_confirmed": 10,
+        "sources_total": 11
+      }
+    },
+    {
+      "place": "London, England, United Kingdom",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Sole Trader Self-Assessment Registration with HMRC",
+          "authority": "HM Revenue and Customs (HMRC)",
+          "status": "mandatory",
+          "condition": "Mandatory if trading income exceeds £1,000 in a tax year. A sole trader can start trading without registering Companies House but must register for Self Assessment with HMRC.",
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "No registration fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Not required; file annual Self Assessment returns",
+            "fee_text": null
+          },
+          "source_url": "https://www.gov.uk/become-sole-trader",
+          "source_quote": "You can start trading straight away without registering. However, you must register for Self Assessment as a sole trader if you earn more than £1,000 in a tax year (from 6 April to 5 April).",
+          "gaps": "No official page states a specific processing time for HMRC Self-Assessment registration for sole traders.",
+          "id": "london-england-united-ki-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Become a sole trader",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "business_registration",
+          "name": "Private Limited Company Registration — Companies House (if Ltd Co. structure chosen)",
+          "authority": "Companies House",
+          "status": "conditional",
+          "condition": "Required only if the operator chooses the limited company structure rather than sole trader.",
+          "fee": {
+            "amount": 100,
+            "currency": "GBP",
+            "basis": "one-off (online); £124 by post",
+            "text": "It costs £100 and can be paid by debit or credit card. Your company is usually registered within 24 hours."
+          },
+          "processing_time": {
+            "min_days": 1,
+            "max_days": 10,
+            "text": "Your company is usually registered within 24 hours [online]. Postal applications take 8 to 10 days."
+          },
+          "renewal": {
+            "period": "Annual confirmation statement",
+            "fee_text": "£50 to file online; £110 by post"
+          },
+          "source_url": "https://www.gov.uk/limited-company-formation/register-your-company",
+          "source_quote": "It costs £100 and can be paid by debit or credit card. Your company is usually registered within 24 hours.",
+          "gaps": null,
+          "id": "london-england-united-ki-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Set up a private limited company",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "VAT Registration",
+          "authority": "HMRC",
+          "status": "conditional",
+          "condition": "Mandatory if taxable turnover exceeds £90,000 in any rolling 12-month period. A new small café is likely below this threshold at launch. Hot food and hot beverages served in a café are standard-rated (20%) even if below the registration threshold.",
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "No registration fee stated on official page"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.gov.uk/register-for-vat",
+          "source_quote": "You must register if either: your total taxable turnover for the last 12 months goes over £90,000 (the VAT threshold)",
+          "gaps": "Official page does not publish a processing time for VAT registration.",
+          "id": "london-england-united-ki-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Register for VAT",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "PAYE Employer Registration with HMRC",
+          "authority": "HMRC",
+          "status": "mandatory",
+          "condition": "Mandatory if employing any staff. Must register before the first payday.",
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "No registration fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Reference number sent by letter; must register before first payday; cannot register more than 2 months before first payment."
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.gov.uk/register-employer",
+          "source_quote": "You normally need to register as an employer with HM Revenue and Customs (HMRC) when you start employing staff.",
+          "gaps": "No specific processing time (days) published for PAYE reference number issuance.",
+          "id": "london-england-united-ki-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Register as an employer",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Food Business Registration with Local Authority",
+          "authority": "Local authority (London borough council)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "one-off",
+            "text": "Registration of your food business is free and can't be refused."
+          },
+          "processing_time": {
+            "min_days": 28,
+            "max_days": null,
+            "text": "You should do this at least 28 days before you start trading."
+          },
+          "renewal": {
+            "period": "Not required; notify authority of significant changes",
+            "fee_text": null
+          },
+          "source_url": "https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business",
+          "source_quote": "When you start a new food business, or take over an existing business, you must register with your local authority. You should do this at least 28 days before you start trading. Registration of your food business is free and can't be refused.",
+          "gaps": null,
+          "id": "london-england-united-ki-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Starting a food business",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "Planning Permission for Change of Use (Class E)",
+          "authority": "Local Planning Authority (London borough council)",
+          "status": "conditional",
+          "condition": "Required only if the existing use class of the premises is not already Class E (which covers café/restaurant use since September 2020). Most retail and office premises in England are within Class E. If the premises was outside Class E (e.g. residential), a formal change of use application is required.",
+          "fee": {
+            "amount": null,
+            "currency": "GBP",
+            "basis": "per application",
+            "text": "Fee not stated in page text; planning fees are set nationally and listed in statutory fee tables under the Town and Country Planning (Fees) Regulations; fees increase annually on 1 April by CPI rate."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.gov.uk/guidance/fees-for-planning-applications",
+          "source_quote": "Planning fees in England are set nationally by the government and are detailed in the Town and Country Planning (Fees for Applications, Deemed Applications, Requests and Site Visits) (England) Regulations 2012, as amended.",
+          "gaps": "The specific fee amount for a Class E change of use application is not stated in the official guidance page text; it is in linked statutory fee tables not reproduced in available evidence. Processing time not published in evidence available.",
+          "id": "london-england-united-ki-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Fees for planning applications",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "Pavement Licence (Outdoor Seating on Highway)",
+          "authority": "Local authority (London borough council)",
+          "status": "conditional",
+          "condition": "Required only if outdoor seating on a public highway is desired. Not required for indoor-only seating.",
+          "fee": {
+            "amount": 500,
+            "currency": "GBP",
+            "basis": "per application (first time); £350 for renewals — these are national caps; local authorities may charge less",
+            "text": "The fee for applying for a licence under the Business and Planning Act process is capped at £500 for first time applications and £350 for renewals"
+          },
+          "processing_time": {
+            "min_days": 28,
+            "max_days": 28,
+            "text": "the authority has 28 days from the day after the application is made (excluding public holidays) to consult on and determine the application"
+          },
+          "renewal": {
+            "period": "Up to 2 years",
+            "fee_text": "Capped at £350 for renewals"
+          },
+          "source_url": "https://www.gov.uk/government/publications/pavement-licences-guidance/pavement-licences-guidance",
+          "source_quote": "The fee for applying for a licence under the Business and Planning Act process is capped at £500 for first time applications and £350 for renewals",
+          "gaps": "Individual London councils may charge below the national cap; exact fees vary by borough and are not stated in national guidance.",
+          "id": "london-england-united-ki-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Pavement licences: guidance",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "Food Hygiene Inspection (Food Hygiene Rating Scheme) and HACCP",
+          "authority": "Local authority Environmental Health Officers / Food Standards Agency",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 0,
+            "currency": "GBP",
+            "basis": "no fee for inspections",
+            "text": "No fee stated for routine inspections"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "in some cases it may be several months until your business receives their first inspection"
+          },
+          "renewal": {
+            "period": "Ongoing; inspections are unannounced and periodic based on risk",
+            "fee_text": null
+          },
+          "source_url": "https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business",
+          "source_quote": "higher risk businesses will be prioritised over low-risk businesses, and in some cases it may be several months until your business receives their first inspection.",
+          "gaps": null,
+          "id": "london-england-united-ki-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Starting a food business",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "Food Hygiene Training (competence requirement; no certificate mandatory)",
+          "authority": "Food Standards Agency / local authority",
+          "status": "mandatory",
+          "condition": "Competence in food hygiene must be demonstrable; a food hygiene certificate is not legally required but is recommended. Records of training must be kept.",
+          "fee": {
+            "amount": null,
+            "currency": "GBP",
+            "basis": null,
+            "text": "No fee for mandatory requirement; FSA root cause analysis training is free; certificate courses vary"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Ongoing; skills must be kept up to date",
+            "fee_text": null
+          },
+          "source_url": "https://www.gov.uk/running-food-business/staff-training-illness-hygiene",
+          "source_quote": "Food handlers do not have to hold a food hygiene certificate. If you want one, ask your local authority for information.",
+          "gaps": "Processing time: Not published",
+          "id": "london-england-united-ki-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Running a food business",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "Employers' Liability (EL) Insurance",
+          "authority": "Legal requirement under Employers' Liability (Compulsory Insurance) Act 1969; insurer must be FCA-authorised",
+          "status": "mandatory",
+          "condition": "Mandatory as soon as the business employs any staff (excluding certain family members or staff based outside England, Scotland and Wales).",
+          "fee": {
+            "amount": null,
+            "currency": "GBP",
+            "basis": "annual premium set by FCA-authorised insurer",
+            "text": "Must cover at least £5 million; premium set by authorised insurers; not a government fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Must be obtained as soon as the business becomes an employer"
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "Premium varies; set by insurer"
+          },
+          "source_url": "https://www.gov.uk/employers-liability-insurance",
+          "source_quote": "You must get Employers' Liability (EL) insurance: as soon as you become an employer; to cover you for at least £5 million; from an authorised insurer",
+          "gaps": "No government source states the typical or minimum premium. Penalty for non-compliance: £2,500 per day without cover.",
+          "id": "london-england-united-ki-10",
+          "check": {
+            "status": "page_live",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Employers' liability insurance",
+            "note": "The page is live, but we could not find the quoted wording in its text. It may sit in a PDF, table or fee calculator. Open the page to confirm."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "Annual Self-Assessment Tax Return (sole trader) / Annual Accounts + Confirmation Statement (Ltd Co.)",
+          "authority": "HMRC (Self-Assessment); Companies House (confirmation statement)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 50,
+            "currency": "GBP",
+            "basis": "per year (confirmation statement online for Ltd Co.; no fee for Self-Assessment return)",
+            "text": "It costs: £50 to file your confirmation statement online; £110 to file a paper form CS01 by post"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "£50 online / £110 by post for confirmation statement"
+          },
+          "source_url": "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+          "source_quote": "It costs: £50 to file your confirmation statement online; £110 to file a paper form CS01 by post",
+          "gaps": "Processing time: Not published",
+          "id": "london-england-united-ki-11",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Filing your company's confirmation statement",
+            "note": null
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 6,
+        "conditional_steps": 4,
+        "upfront": [
+          {
+            "currency": "GBP",
+            "amount": 0
+          }
+        ],
+        "upfront_usd": 0,
+        "fees_unpublished": 2,
+        "longest_wait_days": 28,
+        "longest_wait_min_days": 28,
+        "longest_wait_item": "Food Business Registration with Local Authority",
+        "times_unpublished": 5,
+        "ongoing_items": 3,
+        "gaps": 8,
+        "sources_confirmed": 10,
+        "sources_total": 11
+      }
+    },
+    {
+      "place": "New York City, New York, United States",
+      "requirements": [
+        {
+          "category": "business_registration",
+          "name": "Certificate of Assumed Name (Business Certificate) — Sole Proprietorship",
+          "authority": "County Clerk (NYC borough)",
+          "status": "conditional",
+          "condition": "Required for sole proprietorships or general partnerships conducting business under any name other than the owner's legal name.",
+          "fee": {
+            "amount": 100,
+            "currency": "USD",
+            "basis": "one-off (Bronx, Manhattan, Queens); $120 in Brooklyn and Staten Island",
+            "text": "Bronx County: $100; Brooklyn (Kings County): $120; Manhattan (New York County): $100; Queens County: $100; Staten Island (Richmond County): $120"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://portal.311.nyc.gov/article/?kanumber=KA-02601",
+          "source_quote": "For sole proprietors and general partnerships, the filing fee varies by county. In New York City, the fees are as follows: Bronx County: $100; Brooklyn (Kings County): $120; Manhattan (New York County): $100; Queens County: $100; Staten Island (Richmond County): $120",
+          "gaps": "Processing time not published. Renewal period not stated.",
+          "id": "new-york-city-new-york-u-1",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": false
+            },
+            "page_title": "Business Registration · NYC311",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "business_registration",
+          "name": "LLC Articles of Organization (if LLC structure chosen)",
+          "authority": "New York Department of State",
+          "status": "conditional",
+          "condition": "Required only if the operator chooses the LLC structure.",
+          "fee": {
+            "amount": 200,
+            "currency": "USD",
+            "basis": "one-off filing fee; plus $50 Certificate of Publication filing fee after newspaper publication",
+            "text": "The fee for filing the Articles of Organization is $200."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Standard processing time not published; expedited: $25 within 24 hours, $75 same day, $150 within 2 hours"
+          },
+          "renewal": {
+            "period": "Biennial Statement every 2 years",
+            "fee_text": "$9 per Biennial Statement"
+          },
+          "source_url": "https://dos.ny.gov/forming-limited-liability-company-new-york",
+          "source_quote": "The fee for filing the Articles of Organization is $200. Section 206 of the Limited Liability Company Law requires a copy of the Articles of Organization or a notice related to the formation of most limited liability companies to be published in two newspapers for six consecutive weeks.",
+          "gaps": "Standard processing time not published. Newspaper publication adds time and cost (not quantified in official source).",
+          "id": "new-york-city-new-york-u-2",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": false,
+              "quote": true
+            },
+            "page_title": "Forming a Limited Liability Company in New York",
+            "note": "The page supports this item, but the processing time is not stated there in those words."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "tax_registration",
+          "name": "Certificate of Authority to Collect New York State Sales Tax",
+          "authority": "New York State Department of Taxation and Finance",
+          "status": "mandatory",
+          "condition": "Mandatory for any business making taxable sales in New York State. A café serving food and beverages is making taxable sales.",
+          "fee": {
+            "amount": 0,
+            "currency": "USD",
+            "basis": "one-off",
+            "text": "No fee stated on official page"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "It may take weeks to get your certificate, so plan ahead. Must apply at least 20 days before beginning business."
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
+          "source_quote": "If you will be making sales in New York State that are subject to sales tax, you must register with the Tax Department and obtain a Certificate of Authority. If you expect to make taxable sales in New York State, you must register with the Tax Department at least 20 days before you begin business.",
+          "gaps": "Official source does not give a specific number of days for processing; states only 'weeks'.",
+          "id": "new-york-city-new-york-u-3",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "How to Register for New York State Sales Tax",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "activity_licence",
+          "name": "Food Service Establishment Permit",
+          "authority": "NYC Department of Health and Mental Hygiene (DOHMH)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 280,
+            "currency": "USD",
+            "basis": "per year (plus $25 if frozen desserts will be made)",
+            "text": "The permit fee for most food service establishments in New York City is $280.00, plus $25.00 if you will make frozen desserts."
+          },
+          "processing_time": {
+            "min_days": 22,
+            "max_days": null,
+            "text": "You can start operating 22 days after you submit your permit application, even if you haven't received the permit yet."
+          },
+          "renewal": {
+            "period": "1 year from end of month of application",
+            "fee_text": "Renewal fee: $280 (same as initial permit per official source)"
+          },
+          "source_url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+          "source_quote": "The permit fee for most food service establishments in New York City is $280.00, plus $25.00 if you will make frozen desserts. You can start operating 22 days after you submit your permit application, even if you haven't received the permit yet.",
+          "gaps": "Applications not accepted by mail; must be filed online or in person. Sales tax Certificate of Authority, Food Protection Certificate, workers' compensation proof, and CO from DOB are all required before or at application.",
+          "id": "new-york-city-new-york-u-4",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Food Service Establishment Permit",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "Certificate of Occupancy (CO)",
+          "authority": "NYC Department of Buildings (DOB)",
+          "status": "mandatory",
+          "condition": "No place may be used until a CO is issued. Required for any change in use, egress or type of occupancy. Buildings built before 1938 with no subsequent alterations may instead use a Letter of No Objection.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": null,
+            "text": null
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "No expiration date",
+            "fee_text": null
+          },
+          "source_url": "https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
+          "source_quote": "A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy. No one may legally occupy a building until the Department has issued a CO or Temporary Certificate of Occupancy (TCO).",
+          "gaps": "Fee not published on official page. Processing time depends on resolution of all open applications and violations; no official timeline published. This is the most significant unquantifiable variable in the NYC pre-opening process.",
+          "id": "new-york-city-new-york-u-5",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Certificate of Occupancy - Buildings",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "Place of Assembly Certificate of Operation (PACO)",
+          "authority": "NYC Department of Buildings (DOB) / FDNY",
+          "status": "not_required",
+          "condition": "Required only for premises where 75 or more members of the public gather indoors to consume food or drink. A 30-seat café is below this threshold.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": null,
+            "text": "Fee not stated on official page; not applicable for a 30-seat café"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": null,
+            "fee_text": null
+          },
+          "source_url": "https://www.nyc.gov/site/buildings/property-or-business-owner/place-of-assembly-certificate-of-operation.page",
+          "source_quote": "A Place of Assembly Certificate of Operation (PACO) is required for premises where 75 or more members of the public gather indoors or 200 or more gather outdoors, for religious, recreational, educational, political, or social purposes, or to consume food or drink.",
+          "gaps": null,
+          "id": "new-york-city-new-york-u-6",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Place of Assembly Certificate of Operation - Buildings",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "premises_and_zoning",
+          "name": "Dining Out NYC Outdoor Dining Licence (Sidewalk/Roadway Café)",
+          "authority": "NYC Department of Transportation (DOT)",
+          "status": "conditional",
+          "condition": "Required only if outdoor seating on sidewalk or roadway is desired.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": null,
+            "text": "New applicants can choose a year-round license with higher fees; specific fee amounts not stated on official DOT page"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Annual (implied)",
+            "fee_text": null
+          },
+          "source_url": "https://www.nyc.gov/html/dot/html/about/outdoor-dining.shtml",
+          "source_quote": "Applications are now open. New applicants can choose a year-round license with higher fees.",
+          "gaps": "Specific fee amounts and processing times for the Dining Out NYC licence are not stated on the official DOT page. This is a gap in the available official evidence.",
+          "id": "new-york-city-new-york-u-7",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Home | Dining Out NYC",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "health_safety_environment",
+          "name": "Annual DOHMH Food Safety Inspection",
+          "authority": "NYC Department of Health and Mental Hygiene (DOHMH)",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 0,
+            "currency": "USD",
+            "basis": "no inspection fee; fines levied for violations",
+            "text": "No inspection fee stated; fines must be paid before permit renewal"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Each permitted food establishment will get an unscheduled yearly inspection."
+          },
+          "renewal": {
+            "period": "Annual (unscheduled)",
+            "fee_text": null
+          },
+          "source_url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+          "source_quote": "Each permitted food establishment will get an unscheduled yearly inspection.",
+          "gaps": "Specific waste disposal and environmental compliance rules for small cafés are not addressed in the official sources available.",
+          "id": "new-york-city-new-york-u-8",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Food Service Establishment Permit",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "people_and_qualifications",
+          "name": "Food Protection Certificate for Supervising Manager",
+          "authority": "NYC Department of Health and Mental Hygiene (DOHMH) / NYC Health Academy",
+          "status": "mandatory",
+          "condition": "At least one supervisor with a Food Protection Certificate must be on duty during all hours of operation.",
+          "fee": {
+            "amount": 114,
+            "currency": "USD",
+            "basis": "per person (in-person); or free course + $24 exam (online path)",
+            "text": "Cost: $114 (in-person at the NYC Health Academy). Cost: Free course, $24 for the final exam."
+          },
+          "processing_time": {
+            "min_days": 5,
+            "max_days": 5,
+            "text": "The in-person class is 15 hours long. It is given over five days. Each daily session lasts three hours."
+          },
+          "renewal": {
+            "period": "Does not expire; no renewal required",
+            "fee_text": "No renewal fee; replacement certificate costs $16"
+          },
+          "source_url": "https://nyc-business.nyc.gov/nycbusiness/description/food-protection-certificate",
+          "source_quote": "The Health Code says food places must have a supervisor with a Food Protection Certificate. This person must be on duty during all hours of operation to supervise food preparation and processing. Your Food Protection Certificate does not expire. You do not need to renew it.",
+          "gaps": null,
+          "id": "new-york-city-new-york-u-9",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": true,
+              "quote": true
+            },
+            "page_title": "Food Protection Certificate",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "Workers' Compensation Insurance",
+          "authority": "New York State Workers' Compensation Board (WCB)",
+          "status": "mandatory",
+          "condition": "Virtually all employers in New York State must provide workers' compensation coverage for their employees.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": "annual premium set by insurer",
+            "text": "Premium set by insurers; not a government fee. Proof naming DOHMH as certificate holder required at DOHMH permit application. Businesses with no employees must provide Form CE-200."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Must be obtained before DOHMH permit application"
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "Premium varies; set by insurer"
+          },
+          "source_url": "https://www.wcb.ny.gov/content/main/coverage-requirements-wc/",
+          "source_quote": "Virtually all employers in New York State must provide workers' compensation coverage for their employees (WCL §2 and 3).",
+          "gaps": "Specific premium amounts not published by government source.",
+          "id": "new-york-city-new-york-u-10",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Workers' Compensation Coverage Requirements",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "insurance_and_bonds",
+          "name": "Disability Benefits and Paid Family Leave Insurance",
+          "authority": "New York State Workers' Compensation Board (WCB)",
+          "status": "mandatory",
+          "condition": "Virtually all employers in New York State must provide disability and Paid Family Leave benefits coverage for their employees.",
+          "fee": {
+            "amount": null,
+            "currency": "USD",
+            "basis": "annual premium set by insurer",
+            "text": "Premium set by insurers; not a government fee"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Must be obtained before DOHMH permit application"
+          },
+          "renewal": {
+            "period": "Annual",
+            "fee_text": "Premium varies"
+          },
+          "source_url": "https://www.wcb.ny.gov/content/main/coverage-requirements-db/",
+          "source_quote": "Virtually all employers in New York State must provide disability and Paid Family Leave benefits coverage for their employees (WCL §202).",
+          "gaps": "Specific premium amounts not published by government source.",
+          "id": "new-york-city-new-york-u-11",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": null,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "Disability Benefits Coverage Requirements",
+            "note": null
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "DOHMH Food Service Establishment Permit Annual Renewal",
+          "authority": "NYC DOHMH",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 280,
+            "currency": "USD",
+            "basis": "per year",
+            "text": "Food Service Establishment permits expire one year from the end of the month you applied. You will get a reminder to renew three months before your permit expires."
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": "Reminder sent 3 months before expiry; fines must be paid before renewal"
+          },
+          "renewal": {
+            "period": "1 year",
+            "fee_text": "$280 per year (same as initial permit fee per official source)"
+          },
+          "source_url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+          "source_quote": "Food Service Establishment permits expire one year from the end of the month you applied. You will get a reminder to renew three months before your permit expires.",
+          "gaps": null,
+          "id": "new-york-city-new-york-u-12",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": true,
+              "time": false,
+              "quote": true
+            },
+            "page_title": "Food Service Establishment Permit",
+            "note": "The page supports this item, but the processing time is not stated there in those words."
+          },
+          "placeholder": false
+        },
+        {
+          "category": "ongoing_filings",
+          "name": "New York State Sales Tax Returns",
+          "authority": "NY State Department of Taxation and Finance",
+          "status": "mandatory",
+          "condition": null,
+          "fee": {
+            "amount": 0,
+            "currency": "USD",
+            "basis": "per filing",
+            "text": "No filing fee; penalties for late filing"
+          },
+          "processing_time": {
+            "min_days": null,
+            "max_days": null,
+            "text": null
+          },
+          "renewal": {
+            "period": "Quarterly or annually depending on volume",
+            "fee_text": "No fee; penalties for late filing"
+          },
+          "source_url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
+          "source_quote": "Once you receive your Certificate of Authority, you are considered to be in business for sales tax purposes even if you never make a sale... There are penalties for late filing even if you owe no tax.",
+          "gaps": null,
+          "id": "new-york-city-new-york-u-13",
+          "check": {
+            "status": "confirmed",
+            "checked_at": "2026-11-12T07:13:01.380Z",
+            "official": true,
+            "found": {
+              "fee": false,
+              "time": null,
+              "quote": true
+            },
+            "page_title": "How to Register for New York State Sales Tax",
+            "note": "The quoted wording is on the page, but the fee figure is not. Confirm the fee on the page."
+          },
+          "placeholder": false
+        }
+      ],
+      "summary": {
+        "mandatory_steps": 7,
+        "conditional_steps": 3,
+        "upfront": [
+          {
+            "currency": "USD",
+            "amount": 394
+          }
+        ],
+        "upfront_usd": 394,
+        "fees_unpublished": 3,
+        "longest_wait_days": 22,
+        "longest_wait_min_days": 22,
+        "longest_wait_item": "Food Service Establishment Permit",
+        "times_unpublished": 5,
+        "ongoing_items": 5,
+        "gaps": 9,
+        "sources_confirmed": 13,
+        "sources_total": 13
+      }
+    }
+  ],
+  "recommendation": {
+    "easiest": "London, England, United Kingdom",
+    "ranking": [
+      {
+        "place": "London, England, United Kingdom",
+        "score": 6,
+        "why": [
+          "6 mandatory steps (rank 2 of 3)",
+          "about US$0 in published upfront fees (rank 1 of 3)",
+          "longest published wait 28 days (rank 2 of 3)",
+          "3 recurring filings (rank 1 of 3)"
+        ]
+      },
+      {
+        "place": "Singapore",
+        "score": 8,
+        "why": [
+          "5 mandatory steps (rank 1 of 3)",
+          "about US$242 in published upfront fees (rank 2 of 3)",
+          "longest published wait 60 days (rank 3 of 3)",
+          "5 recurring filings (rank 2 of 3)"
+        ]
+      },
+      {
+        "place": "New York City, New York, United States",
+        "score": 9,
+        "why": [
+          "7 mandatory steps (rank 3 of 3)",
+          "about US$394 in published upfront fees (rank 3 of 3)",
+          "longest published wait 22 days (rank 1 of 3)",
+          "5 recurring filings (rank 2 of 3)"
+        ]
+      }
+    ],
+    "method": "Each place is ranked on four measured things: number of mandatory steps before opening, total published upfront fees (in USD), the longest published wait (worst case where the source gives a range), and the number of recurring filings. The ranks are added up and the lowest total wins. Only published figures count; a place with unpublished fees or times is not treated as cheaper or faster, it is marked as less certain.",
+    "research": {
+      "easiest": "Singapore",
+      "ranking": [
+        "Singapore",
+        "London, England, United Kingdom",
+        "New York City, New York, United States"
+      ],
+      "reasons": [
+        "Singapore has the fewest mandatory pre-opening steps with published timelines: ACRA registration (same-day to 15 working days) and SFA Food Shop Licence (7 working days review). Total confirmed mandatory government fees before opening: S$310 (sole proprietorship + Food Shop Licence).",
+        "London's food business registration is free and cannot be refused, making the activity licence the simplest of the three cities. A sole trader can start with no Companies House registration and no food hygiene certificate, only requiring a 28-day notice to the local authority.",
+        "New York City requires the most agencies, the most sequential dependencies (sales tax Certificate of Authority must arrive before DOHMH permit; CO must be issued before operations), and has the most unknowns (CO fee and timeline both unpublished).",
+        "Singapore's Fire Certificate is not required for a 30-seat café (below 200-person threshold), eliminating a step present for larger venues.",
+        "New York City's Food Protection Certificate is mandatory for a supervising manager (5 days of training, $24-$114) and must be obtained before opening, creating a minimum pre-opening training period with no equivalent in London.",
+        "London has no mandatory food hygiene certificate for staff; competence can be demonstrated through on-the-job training, reducing pre-opening cost and time."
+      ],
+      "trade_offs": [
+        "Singapore: The URA change-of-use process (S$500, ~10 working days, plus possible referral delays) can block lease commitment and renovation if the premises is not already approved for restaurant use. Operators must not commit to tenancy before URA approval.",
+        "Singapore: All food handlers must pass WSQ FSC Level 1 before the licence application, and SSG takes up to 2 weeks to share data with SFA, adding ~2 weeks to the timeline that is easy to underestimate.",
+        "Singapore: Foreign nationals without Singpass must engage a Corporate Service Provider, adding cost and time not reflected in government fees.",
+        "London: The planning permission fee for change of use is not published in the official evidence available; this is a gap. If the premises lacks Class E use, the application fee and timeline are unknown from official sources.",
+        "London: Employers' Liability insurance is mandatory as soon as staff are hired, with no government-fixed premium, adding an unquantifiable upfront cost.",
+        "London: The first food hygiene inspection may take several months, leaving the business operating without a public rating, which may concern customers.",
+        "New York City: The Certificate of Occupancy has no published fee and no published processing timeline; open violations or applications on the property can block it indefinitely.",
+        "New York City: The sales tax Certificate of Authority must arrive (described as 'weeks') before the DOHMH permit can be filed, creating a chain delay at the very start.",
+        "New York City: Both workers' compensation insurance and disability/Paid Family Leave insurance are mandatory for all employees, with proof required at DOHMH permit application, adding insurance procurement to the pre-opening critical path.",
+        "New York City: The LLC structure requires newspaper publication for six consecutive weeks plus a $50 Certificate of Publication filing, adding time and cost not present in Singapore or the UK.",
+        "New York City: The outdoor dining licence fee is not published in official sources, making budget planning for a sidewalk café feature incomplete.",
+        "All three: Compulsory insurance premiums (WIC in Singapore, EL in London, workers' comp + disability in NYC) are set by insurers and not published as fixed government fees; these represent unquantifiable but potentially significant upfront costs."
+      ]
+    },
+    "agree": false,
+    "caveats": [
+      "Singapore: 2 fees are not published, so its total is a floor; 1 approval time is not published; 7 items are flagged unclear or missing; 1 of 11 sources could not be confirmed on re-reading.",
+      "London, England, United Kingdom: 2 fees are not published, so its total is a floor; 5 approval times are not published; 8 items are flagged unclear or missing; 1 of 11 sources could not be confirmed on re-reading.",
+      "New York City, New York, United States: 3 fees are not published, so its total is a floor; 5 approval times are not published; 9 items are flagged unclear or missing."
+    ]
+  },
+  "report_markdown": "# Legal Requirements to Open a Small Café (Hot Food, 30 Seats, No Alcohol)\n### Comparative Analysis: Singapore · London, England · New York City\n\n---\n\n## Executive Summary\n\nOpening a 30-seat café serving hot food in three global cities involves overlapping but structurally different regulatory frameworks. **Singapore** has the fewest steps, lowest upfront fees, and the fastest official timelines—but requires a mandatory Food Shop Licence from the Singapore Food Agency (SFA) and may require a URA planning change-of-use approval depending on the premises. **London** is the lightest-touch jurisdiction for the activity licence itself (food business registration is free and cannot be refused [1]), but company formation, VAT registration, and employer obligations add administrative layers, and change-of-use planning permission timelines are not published in a fixed schedule. **New York City** has the most complex, multi-agency, pre-opening burden: a food service establishment permit, a Certificate of Occupancy, a mandatory Food Protection Certificate for a supervising manager, workers' compensation and disability insurance, and multiple business-registration filings—with the longest documented wait (the 22-day minimum before operations can begin, plus weeks to obtain a sales tax Certificate of Authority [7][9]).\n\nThe clearest single blocker for newcomers differs by location: in Singapore it is the URA change-of-use process (if needed); in London it is the planning application (if the premises lacks Class E use); in New York City it is the cascade of pre-opening permits with no guaranteed timelines for Certificate of Occupancy issuance.\n\n---\n\n## SINGAPORE\n\n### 1. Business Registration\n\n**Name Reservation + Business Entity Registration — Accounting and Corporate Regulatory Authority (ACRA) via Bizfile**\n\n| Item | Detail |\n|---|---|\n| Authority | ACRA |\n| Status | **Mandatory** (any person carrying on business in Singapore must register) |\n| Fee | S$15 name application + S$100 registration = **S$115 for one year**; S$175 for three years [12] |\n| Processing time | Most applications approved soon after payment; complex cases up to 15 working days; cases requiring referral authority approval 14–60 days [11] |\n| Renewal | Every 1 or 3 years; renewal fee S$30 (1 year) or S$90 (3 years) [27] |\n\nA sole proprietorship is the simplest structure; a company (Pte Ltd) costs S$315 (S$15 name + S$300 incorporation fee) [12] and provides limited liability. Foreigners without Singpass must engage a Corporate Service Provider [11].\n\n**Gap:** The page at [18] lists the fees but notes that fees for ongoing management transactions are not fully extracted. Renewal fees are confirmed at [27].\n\n**Source URLs:** https://www.acra.gov.sg/register/business/registering-different-business-structures/sole-proprietorship-or-partnership/ [11]; https://www.acra.gov.sg/register/business/choosing-business-structure/ [12]; https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/service-transaction-fees/ [18]; https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/key-requirements-common-offences/renewing-your-registration/ [27]\n\n---\n\n### 2. Tax Registration\n\n**GST Registration — Inland Revenue Authority of Singapore (IRAS)**\n\n| Item | Detail |\n|---|---|\n| Authority | IRAS |\n| Status | **Conditional** — mandatory only if taxable turnover exceeds S$1 million in a calendar year (retrospective view) or is expected to exceed S$1 million in the next 12 months (prospective view) [15] |\n| Condition | A new café with annual revenue well below S$1 million does not need to register for GST; voluntary registration is possible |\n| Fee | No registration fee stated on the official IRAS page [15] |\n| Processing time | Not published on the IRAS page cited |\n| Renewal | Ongoing; no fixed renewal period |\n\nA small 30-seat café with no alcohol will almost certainly fall below the S$1 million GST threshold at start-up. GST is a self-assessed tax; the owner must monitor turnover [15]. For corporate income tax, profits of a sole proprietorship are taxed at the owner's personal income tax rate [12].\n\n**Gap:** IRAS does not publish a specific processing time for GST registration on the page cited [15].\n\n**Source URL:** https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst [15]\n\n---\n\n### 3. Activity Licence\n\n**Food Shop Licence — Singapore Food Agency (SFA) via GoBusiness**\n\n| Item | Detail |\n|---|---|\n| Authority | SFA |\n| Status | **Mandatory** for any retail food outlet where food and/or drink is sold by retail [31] |\n| Fee | S$195 per year [13][28][31] |\n| Processing time | SFA reviews all completed applications within **7 working days** [13] |\n| Validity | 1 year [13][31] |\n| Renewal | Annual; renewal fee S$195/year; renewal is immediate upon payment [28] |\n| Pre-condition | URA/HDB approval for premises use must be submitted as a supporting document [31] |\n\nA small café with hot food and seating is squarely a \"Food Shop\" under the SFA definition, which explicitly includes restaurants, coffee shops, eating houses and cafeterias [14]. The licence process has four formal steps: (1) obtain In-Principle Approval; (2) commence renovation and set-up; (3) request pre-licensing inspection (virtual or photo submission, booked at least 5 working days in advance); (4) complete payment [31]. If required documents are not submitted within 2 months, the application is treated as null and must be resubmitted [13][31].\n\n**Source URLs:** https://www.sfa.gov.sg/food-retail/licence-permit/application-process-fees-for-licence-permit-for-food-retail [13]; https://www.sfa.gov.sg/food-retail/licence-permit/requirements-for-licence-permit-for-food-retail [14]; https://licensing.gobusiness.gov.sg/licence-directory/sfa/food-shop-licence [31]; https://www.sfa.gov.sg/food-retail/licence-permit/update-renew-cancel-licence-permit-for-food-retail [28]\n\n---\n\n### 4. Premises and Zoning\n\n**URA Change of Use / Planning Permission — Urban Redevelopment Authority (URA)**\n\n| Item | Detail |\n|---|---|\n| Authority | URA |\n| Status | **Conditional** — depends on the existing approved use of the premises |\n| Condition | No planning permission required to convert between shop, showroom and restaurant in commercial buildings, subject to authorisation conditions. If the existing use is not within that group, a change of use application is required [16][35] |\n| Fee (if application required) | S$500, non-refundable [43] |\n| Processing time | Generally **10 working days**; longer if incomplete or other agencies must be consulted [43] |\n| Renewal | Not applicable (planning permission is permanent once granted) |\n\nA café in a commercial building converting from a shop use to restaurant use does not require a planning permission application [16][35]. HDB commercial premises require HDB consent but not URA planning permission [16]. Shophouses outside \"problematic traffic areas\" require an individual change of use evaluation, and certain named roads are unlikely to be approved [35]. The prospective operator should check URA SPACE for the existing approved use before signing a lease.\n\n**Fire Safety — SCDF Fire Certificate**\n\n| Item | Detail |\n|---|---|\n| Authority | Singapore Civil Defence Force (SCDF) |\n| Status | **Conditional** — required only for public buildings with an occupant load of **more than 200 persons** [17] |\n| Condition | A 30-seat café does not meet the 200-person threshold and therefore does **not** require a Fire Certificate |\n| Fee | S$33 per storey for non-residential premises (for applicable buildings) [17] |\n| Processing time | 3 business days (subject to complete application) [17] |\n| Renewal | Every 36 months (from 1 April 2026 onwards) [17] |\n\n**Gap:** Signage and outdoor seating rules are not covered in the official pages cited. SFA requires \"Outdoor Refreshment Area\" boundaries to be shown on the layout plan submitted with the Food Shop Licence application [13], but no separate outdoor seating licence fee or processing time is cited in the available official sources.\n\n**Source URLs:** https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/assessment-criteria/ [16]; https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/related/criteria-for-restaurant/ [35]; https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/ [43]; https://www.scdf.gov.sg/fire-safety-services-listing/permits-and-certifications/fire-certificate [17]\n\n---\n\n### 5. Health, Safety and Environment\n\n**Environmental Sanitation (ES) Regime — National Environment Agency (NEA)**\n\n| Item | Detail |\n|---|---|\n| Authority | NEA |\n| Status | **Conditional** — mandatory for selected Food Shops including coffee shops, eating house canteens, food courts and private markets [14][31] |\n| Condition | Whether a 30-seat standalone café is \"selected\" is determined by NEA; the official pages state that \"selected retail foodshops\" must implement the ES regime and submit an Environmental Sanitation Programme (ESP) to NEA within 1 month [31] |\n| Fee | Not published on the official pages cited |\n| Processing time | Not published |\n| Renewal | Not stated |\n\n**Gap:** The official SFA and NEA pages do not specify which café types trigger the ES regime beyond \"coffee shops, eating house canteens, food courts and private markets\" [14]. Whether a standalone café qualifies is unclear from the official sources cited. No fee or processing time is published.\n\n**HACCP / Food Safety Management:** A food business must use HACCP procedures or an equivalent food safety management system [1] (this applies globally to all three jurisdictions; Singapore's SFA requires this as part of the Food Shop licence conditions).\n\n**Source URLs:** https://www.sfa.gov.sg/food-retail/licence-permit/requirements-for-licence-permit-for-food-retail [14]; https://licensing.gobusiness.gov.sg/licence-directory/sfa/food-shop-licence [31]\n\n---\n\n### 6. People and Qualifications\n\n**WSQ Food Safety Course (FSC) Level 1 — SkillsFuture Singapore / SFA**\n\n| Item | Detail |\n|---|---|\n| Authority | SFA / SkillsFuture Singapore (SSG) |\n| Status | **Mandatory** for all food handlers in retail food businesses [36] |\n| Condition | All food handlers must pass WSQ FSC Level 1 before or at the time of licence application [14][36] |\n| Fee | Not published on the official SFA pages cited (course is offered by accredited training providers; fee not stated in the official source) |\n| Processing time | SSG shares data with SFA within 2 weeks of course completion [36] |\n| Renewal | Retraining required: 1st retraining within 5 years; subsequent retrainings within 10 years [36] |\n\n**Food Hygiene Officer (FHO):** Required only for certain establishments such as canteens and cold stores, not explicitly for a standalone café [37]. This requirement is therefore **not required** for a standalone 30-seat café unless SFA specifically designates it.\n\n**CPF Submission Number — Central Provident Fund Board (CPFB)**\n\n| Item | Detail |\n|---|---|\n| Authority | CPFB |\n| Status | **Mandatory** for employers with Singapore Citizen or Permanent Resident employees [30] |\n| Fee | No fee stated [30] |\n| Processing time | Approved CSN allows CPF submission the next calendar day [30] |\n\n**Source URLs:** https://www.sfa.gov.sg/food-handler-hygiene-officer/requirements-for-food-handler-hygiene-officer/requirements-for-food-handlers [36]; https://www.sfa.gov.sg/food-handler-hygiene-officer/requirements-for-food-handler-hygiene-officer/requirements-for-food-hygiene-officers [37]; https://www.cpf.gov.sg/employer/making-cpf-contributions/applying-for-a-cpf-submission-number [30]\n\n---\n\n### 7. Insurance and Bonds\n\n**Work Injury Compensation (WIC) Insurance — Ministry of Manpower (MOM)**\n\n| Item | Detail |\n|---|---|\n| Authority | MOM |\n| Status | **Mandatory** for all employees doing manual work (regardless of salary) and all non-manual employees earning ≤S$2,600/month [29] |\n| Condition | Café kitchen and service staff performing manual work must be covered |\n| Fee | Premium set by designated insurers; not published as a fixed government fee [29] |\n| Processing time | Policy must be finalised at least 21 days before commencement [29] |\n| Renewal | Annual (standard insurance policy cycle) |\n| Penalty for non-compliance | Fine up to S$10,000 or jail up to 12 months, or both [29] |\n\n**Gap:** The specific premium amount is not published by MOM; it is set by the designated insurer.\n\n**Source URL:** https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/work-injury-compensation-insurance [29]\n\n---\n\n### 8. Ongoing Filings\n\n| Filing | Authority | Frequency | Fee | Source |\n|---|---|---|---|---|\n| Business registration renewal | ACRA | Annually (or every 3 years) | S$30/year or S$90/3 years [27] | [27] |\n| Food Shop Licence renewal | SFA | Annually | S$195/year [28] | [28] |\n| GST returns | IRAS | Quarterly (if registered) | No fee | [15] |\n| CPF contributions | CPFB | Monthly | No filing fee | [30] |\n| MediSave contributions | CPF Board | Required before licence renewal | Amount varies | [28] |\n\n**Source URLs:** [27][28][15][30]\n\n---\n---\n\n## LONDON, ENGLAND, UNITED KINGDOM\n\n### 1. Business Registration\n\nA café operator in London can trade as a **sole trader** (simplest, no formal registration with Companies House required) or as a **private limited company**.\n\n**Sole Trader — Self-Assessment registration with HMRC**\n\n| Item | Detail |\n|---|---|\n| Authority | HMRC |\n| Status | **Mandatory** if trading income exceeds £1,000 in a tax year [24] |\n| Fee | No registration fee [24] |\n| Processing time | Not published |\n| Renewal | Not required; ongoing Self-Assessment returns annually |\n\n**Private Limited Company — Companies House**\n\n| Item | Detail |\n|---|---|\n| Authority | Companies House |\n| Status | **Conditional** — required only if the operator chooses the limited company structure |\n| Fee | £100 online (processed within 24 hours); £124 by post (8–10 days) [2][3] |\n| Processing time | Within 24 hours online; 8–10 days by post [2][3] |\n| Renewal | Confirmation statement: annually, £50 online / £110 by post [23] |\n\n**Gap:** No official page states a processing time for HMRC Self-Assessment registration for sole traders specifically.\n\n**Source URLs:** https://www.gov.uk/become-sole-trader [24]; https://www.gov.uk/limited-company-formation/register-your-company [2]; https://www.gov.uk/government/publications/incorporation-and-names/incorporation-and-names [3]\n\n---\n\n### 2. Tax Registration\n\n**VAT Registration — HMRC**\n\n| Item | Detail |\n|---|---|\n| Authority | HMRC |\n| Status | **Conditional** — mandatory if taxable turnover exceeds £90,000 in any rolling 12-month period [26][38] |\n| Condition | A new small café with revenue below £90,000/year need not register; voluntary registration is possible [26] |\n| Fee | No registration fee [26] |\n| Processing time | Not published on the official page |\n| Renewal | Not applicable; VAT returns are filed periodically (usually quarterly) |\n\nImportant for a café serving hot food: all food supplied in the course of catering (including hot takeaway food) and all hot beverages are **standard-rated at 20%**, not zero-rated [6]. This matters for cash flow even before the registration threshold is reached.\n\n**Self-Assessment / PAYE — HMRC**\n\n| Item | Detail |\n|---|---|\n| Authority | HMRC |\n| Status | **Mandatory** (Self-Assessment for sole traders; PAYE for employers with staff) [5][24] |\n| Fee | No registration fee [5] |\n| Processing time | Employer PAYE reference number sent by letter; must register before first payday [5] |\n\n**Source URLs:** https://www.gov.uk/register-for-vat [26]; https://www.gov.uk/government/publications/vat-increasing-the-registration-and-deregistration-thresholds/increasing-the-vat-registration-threshold [38]; https://www.gov.uk/guidance/food-products-and-vat-notice-70114 [6]; https://www.gov.uk/register-employer [5]\n\n---\n\n### 3. Activity Licence\n\n**Food Business Registration — Local Authority (via local council)**\n\n| Item | Detail |\n|---|---|\n| Authority | Local authority (London borough council) |\n| Status | **Mandatory** for any food business [1] |\n| Fee | **Free; cannot be refused** [1] |\n| Processing time | Must register at least **28 days** before trading; registration itself is processed by the local authority within that period [1] |\n| Renewal | No formal renewal required; notify the local authority of significant changes |\n\nThis is notably the simplest activity-licence requirement of the three jurisdictions. The registration is free, cannot be refused, and is simply a notification to the local council [1].\n\n**Source URL:** https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business [1]\n\n---\n\n### 4. Premises and Zoning\n\n**Planning Permission — Local Planning Authority (London Borough Council)**\n\n| Item | Detail |\n|---|---|\n| Authority | Local Planning Authority (LPA) |\n| Status | **Conditional** — required only if the existing use class of the premises is not already Class E (which covers café/restaurant use since September 2020) |\n| Condition | Most retail and office premises in England are now within Class E, which includes cafés. If the premises was already in Class E, no application is needed. If the premises was outside Class E (e.g., residential, sui generis), a change of use application is required |\n| Fee | Nationally set; exact current fee for a change of use application is listed in the statutory fee table under the Town and Country Planning (Fees) Regulations [22] |\n| Processing time | Not stated as a fixed number of days on the official fee page [22]; statutory determination periods apply but are not quoted in the evidence available |\n| Renewal | Planning permissions are generally permanent |\n\n**Gap:** The official guidance page [22] refers to statutory fee tables and notes that fees increase annually on 1 April by the CPI rate, but **does not state the specific current fee amount for a Class E change of use application** in the page text. The fee schedules are linked documents. No fee amount can be confirmed from the evidence available. The statutory determination period (typically 8 weeks for householder applications, potentially different for commercial) is not stated in the evidence.\n\n**Pavement Licence (Outdoor Seating) — Local Authority**\n\n| Item | Detail |\n|---|---|\n| Authority | Local authority (London borough council) |\n| Status | **Conditional** — required only if outdoor seating on a public highway is desired [25] |\n| Fee | Capped at **£500 for first applications; £350 for renewals** [25] |\n| Processing time | Authority has **28 days** (excluding public holidays) to determine: 14-day consultation then 14-day determination; if not determined in time, licence is deemed granted [25] |\n| Validity | Up to 2 years [25] |\n| Renewal | Every 2 years; renewal fee capped at £350 [25] |\n\nA pavement licence does not remove the need for food business registration [25]. It also grants deemed planning permission for activities conducted under the licence [25].\n\n**Fire Risk Assessment — Self-assessed (no licence, but mandatory)**\n\nThe official FSA guidance states that a fire risk assessment must be carried out at the premises and fire safety precautions taken [1]. No separate fire certificate or licence for a small café is required (this contrasts with Singapore's Fire Certificate, which only triggers above 200-person occupant load, and NYC's Place of Assembly Certificate, which triggers above 75 persons indoors).\n\n**Source URLs:** https://www.gov.uk/guidance/fees-for-planning-applications [22]; https://www.gov.uk/government/publications/pavement-licences-guidance/pavement-licences-guidance [25]; https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business [1]\n\n---\n\n### 5. Health, Safety and Environment\n\n**Food Hygiene Inspection — Local Authority Environmental Health Officers**\n\n| Item | Detail |\n|---|---|\n| Authority | Local authority Environmental Health |\n| Status | **Mandatory** (businesses are inspected; they cannot refuse entry to officers) [1] |\n| Fee | No fee for routine inspections |\n| Processing time | No guaranteed timing for first inspection; \"in some cases it may be several months until your business receives their first inspection\" [1] |\n| Rating | Food Hygiene Rating Scheme (0–5); published online |\n\n**HACCP / Food Safety Management System**\n\n| Item | Detail |\n|---|---|\n| Authority | Food Standards Agency / local authority |\n| Status | **Mandatory** [1] |\n| Fee | No fee |\n| Requirement | Business must use HACCP procedures or a HACCP-based system such as Safer Food Better Business [1] |\n\n**Allergen Information**\n\n| Item | Detail |\n|---|---|\n| Authority | Food Standards Agency |\n| Status | **Mandatory** [1] |\n| Requirement | Allergen information for 14 required allergens must be provided to customers [1] |\n\n**Written Health & Safety Policy**\n\n| Item | Detail |\n|---|---|\n| Status | **Conditional** — mandatory only if 5 or more employees [1] |\n\n**Source URL:** https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business [1]\n\n---\n\n### 6. People and Qualifications\n\n**Food Hygiene Training — Food Standards Agency / local authority**\n\n| Item | Detail |\n|---|---|\n| Authority | Food Standards Agency / local authority |\n| Status | **Mandatory in substance, but no certificate is legally required** [1][44] |\n| Condition | Food handlers are not legally required to hold a food hygiene certificate. However, the operator must demonstrate that staff have the right skills, knowledge and training for their role; records must be kept and shown during inspections [44] |\n| Fee | Courses vary; FSA root-cause-analysis training is free [44] |\n\nThe FSA guidance is explicit: \"Food handlers do not have to hold a food hygiene certificate\" [44]. Skills can be acquired through on-the-job training, self-study, or courses [44]. This is a significantly lighter burden than Singapore (mandatory WSQ FSC Level 1 for all handlers) or New York City (mandatory Food Protection Certificate for the supervising manager).\n\n**Employer Registration — HMRC PAYE**\n\n| Item | Detail |\n|---|---|\n| Authority | HMRC |\n| Status | **Mandatory** if employing staff [5] |\n| Fee | No registration fee [5] |\n| Requirement | Must register before the first payday; cannot register more than 2 months before first payment [5] |\n\n**Source URLs:** https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business [1]; https://www.gov.uk/running-food-business/staff-training-illness-hygiene [44]; https://www.gov.uk/register-employer [5]\n\n---\n\n### 7. Insurance and Bonds\n\n**Employers' Liability Insurance — Financial Conduct Authority-authorised insurer**\n\n| Item | Detail |\n|---|---|\n| Authority | Requirement set by law (Employers' Liability (Compulsory Insurance) Act 1969); insurer must be FCA-authorised |\n| Status | **Mandatory** as soon as the business employs any staff (with limited family exemptions) [4] |\n| Minimum cover | £5 million [4] |\n| Fee | Premium set by insurers; not a government fee |\n| Penalty for non-compliance | £2,500 per day without cover; £1,000 for failure to display certificate [4] |\n| Renewal | Annual (standard insurance policy) |\n\n**Gap:** No government source states the typical or minimum premium. The FCA register confirms authorised insurers [4].\n\n**Source URL:** https://www.gov.uk/employers-liability-insurance [4]\n\n---\n\n### 8. Ongoing Filings\n\n| Filing | Authority | Frequency | Fee | Source |\n|---|---|---|---|---|\n| Self-Assessment tax return (sole trader) | HMRC | Annually | No fee | [24] |\n| Annual accounts + confirmation statement (limited company) | Companies House | Annually | £50 online confirmation statement [23] | [23] |\n| VAT returns (if registered) | HMRC | Usually quarterly | No fee | [26] |\n| PAYE RTI submissions | HMRC | Each pay period | No fee | [5] |\n| Food business registration update (significant changes) | Local authority | As needed | Free | [1] |\n\n**Source URLs:** [24][23][26][5][1]\n\n---\n---\n\n## NEW YORK CITY, NEW YORK, UNITED STATES\n\n### 1. Business Registration\n\n**Certificate of Assumed Name (Business Certificate) — County Clerk**\n\n| Item | Detail |\n|---|---|\n| Authority | County Clerk of the relevant NYC borough |\n| Status | **Conditional** — mandatory for sole proprietorships and general partnerships trading under any name other than the owner's legal name [8][34] |\n| Fee | $100 (Bronx, Manhattan, Queens); $120 (Brooklyn, Staten Island) [8] |\n| Processing time | Not published on official page [34] |\n| Renewal | Not stated on official pages |\n\n**LLC — New York Department of State**\n\n| Item | Detail |\n|---|---|\n| Authority | NY Department of State |\n| Status | **Conditional** — required only if the operator chooses the LLC structure |\n| Fee | $200 filing fee for Articles of Organization [19][20] |\n| Newspaper publication | Mandatory within 120 days; Certificate of Publication filing fee $50 [19] |\n| Processing time | Standard (not published); expedited: $25 (within 24 hours), $75 (same day), $150 (within 2 hours) [20] |\n| Renewal | Biennial Statement: every 2 years; $9 per filing [20][41] |\n\n**Gap:** Processing time for standard LLC or sole proprietorship filings is not stated on the official pages.\n\n**Source URLs:** https://portal.311.nyc.gov/article/?kanumber=KA-02601 [8]; https://nyc-business.nyc.gov/nycbusiness/description/certificate-of-assumed-name-business-certificate [34]; https://dos.ny.gov/forming-limited-liability-company-new-york [19]; https://dos.ny.gov/fee-schedules [20]\n\n---\n\n### 2. Tax Registration\n\n**Certificate of Authority to Collect Sales Tax — New York State Department of Taxation and Finance**\n\n| Item | Detail |\n|---|---|\n| Authority | NY State Department of Taxation and Finance |\n| Status | **Mandatory** — a café serving food is making taxable sales in New York State [9] |\n| Fee | No fee [9] |\n| Requirement | Must register at least 20 days before beginning business; no taxable sales may be made until the certificate is received [9] |\n| Processing time | \"It may take weeks to get your certificate, so plan ahead\" [7]; the official tax bulletin notes the process but does not give a specific day count [9] |\n| Renewal | No formal renewal; must file sales tax returns on schedule (quarterly or annually depending on volume) [9] |\n| Penalty | Up to $10,000 for operating without a valid Certificate of Authority [9] |\n\nThis Certificate is also a **prerequisite** for the Food Service Establishment Permit from DOHMH—the address on the Certificate must match the applicant's or establishment's address [7].\n\n**Source URLs:** https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm [9]; https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit [7]\n\n---\n\n### 3. Activity Licence\n\n**Food Service Establishment Permit — NYC Department of Health and Mental Hygiene (DOHMH)**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC DOHMH |\n| Status | **Mandatory** for any restaurant, café, bakery or similar premises where food is given to people [7] |\n| Fee | **$280.00** (plus $25.00 if frozen desserts will be made) [7] |\n| Processing time | Business may start operating **22 days** after submitting the permit application, even before the permit is issued [7] |\n| Validity | 1 year from the end of the month of application [7] |\n| Renewal | Annually; renewal reminder sent 3 months before expiry; fines must be paid before renewal [7] |\n| Pre-conditions | (a) Certificate of Authority to Collect Sales Tax; (b) Food Protection Certificate for supervising manager; (c) Workers' compensation and disability insurance proof; (d) Certificate of Occupancy from NYC DOB [7] |\n\nApplications are not accepted by mail; must be filed online or in person [7].\n\n**Source URL:** https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit [7]\n\n---\n\n### 4. Premises and Zoning\n\n**Certificate of Occupancy (CO) — NYC Department of Buildings (DOB)**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC Department of Buildings |\n| Status | **Mandatory** — \"No place may be used until a Certificate of Occupancy is issued by the NYC Commissioner of Buildings\" [7][21] |\n| Fee | **Not published** on the official DOB page [21] |\n| Processing time | **Not published** on the official DOB page; requires final inspection sign-offs for construction, plumbing, elevator, electrical, plus no open applications or violations [21] |\n| Renewal | No expiration date [21] |\n\nIf the premises was built before 1938 and no later alterations changed use, egress or occupancy, a CO may not be required, and a Letter of No Objection from the borough office may suffice [21].\n\n**Gap:** The official DOB page does not state a CO fee or processing timeline. These are significant unknowns for planning purposes.\n\n**Place of Assembly Certificate of Operation (PACO) — NYC DOB / FDNY**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC DOB (initial issuance); FDNY (annual renewal permit) |\n| Status | **Not required** for a 30-seat café — the PACO threshold is 75 or more persons gathering **indoors** to consume food or drink [42] |\n| Condition | 30 seats is well below the 75-person indoor threshold |\n\n**Outdoor Dining (Roadway/Sidewalk Café) — NYC DOT / DCWP**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC DOT (Dining Out NYC program) [32] |\n| Status | **Conditional** — required only for outdoor seating on streets or sidewalks |\n| Fee | Official page states applications are open and new applicants can choose a year-round licence with higher fees, but **specific fee amounts are not stated** on the official DOT page [32] |\n| Processing time | Not published |\n| Renewal | Implied annual; details not published on official page |\n\n**Gap:** The NYC DOT Dining Out NYC page [32] does not state specific fee amounts for the sidewalk/roadway café licence. The DCWP page for the sidewalk café licence fee and renewal fee was not available in the official sources cited.\n\n**Source URLs:** https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit [7]; https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page [21]; https://www.nyc.gov/site/buildings/property-or-business-owner/place-of-assembly-certificate-of-operation.page [42]; https://www.nyc.gov/html/dot/html/about/outdoor-dining.shtml [32]\n\n---\n\n### 5. Health, Safety and Environment\n\n**Annual DOHMH Inspection — NYC DOHMH**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC DOHMH |\n| Status | **Mandatory** — \"Each permitted food establishment will get an unscheduled yearly inspection\" [7] |\n| Fee | No inspection fee; fines may be levied for violations |\n| Timing | Unscheduled (operator cannot control timing) |\n\nThe NYC Health inspection system assigns letter grades (A, B, C) based on the number and severity of violations found. Fines for violations must be paid before permit renewal [7].\n\n**Gap:** Specific waste disposal and environmental rules applicable to a small café are not addressed in the official sources available. NYC DOHMH requirements beyond inspection are not detailed in the evidence.\n\n**Source URL:** https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit [7]\n\n---\n\n### 6. People and Qualifications\n\n**Food Protection Certificate — NYC DOHMH**\n\n| Item | Detail |\n|---|---|\n| Authority | NYC DOHMH / NYC Health Academy |\n| Status | **Mandatory** — \"The Health Code requires food places to have a supervisor with a Food Protection Certificate on duty during all hours of operation\" [39][40] |\n| Condition | At least one supervisor must hold the certificate and be on-site at all times [7][39] |\n| Fee | $114 in-person at NYC Health Academy; or free online course + $24 in-person exam = $24 total [39][40] |\n| Processing time | In-person: 15 hours over 5 days (3 hours/day, Mon–Fri) [39][40]; certificate issued on passing exam on day 5 |\n| Renewal | **Does not expire; no renewal required** [39] |\n\nThis must be obtained before the café can open (required at the time of DOHMH permit application) [7].\n\n**Workers' Compensation and Disability/Paid Family Leave Registration — NY Workers' Compensation Board**\n\n| Item | Detail |\n|---|---|\n| Authority | NY Workers' Compensation Board |\n| Status | **Mandatory** for virtually all employers in New York State [10][33] |\n| Fee | Premium set by insurers; not a government fee |\n| Requirement | Proof (certificate naming DOHMH as certificate holder) must be shown when applying for the food service establishment permit. If no employees, Form CE-200 from the WCB is required [7] |\n\n**Source URLs:** https://nyc-business.nyc.gov/nycbusiness/description/food-protection-certificate [39]; https://www.nyc.gov/site/doh/business/health-academy/food-protection-classroom.page [40]; https://www.wcb.ny.gov/content/main/coverage-requirements-wc/ [10]; https://www.wcb.ny.gov/content/main/coverage-requirements-db/ [33]\n\n---\n\n### 7. Insurance and Bonds\n\n**Workers' Compensation Insurance — NY Workers' Compensation Board**\n\n| Item | Detail |\n|---|---|\n| Authority | NY Workers' Compensation Board |\n| Status | **Mandatory** for virtually all employers [10] |\n| Fee | Premium set by insurers |\n| Penalty | Detailed on WCB site [10] |\n\n**Disability Benefits and Paid Family Leave Insurance — NY Workers' Compensation Board**\n\n| Item | Detail |\n|---|---|\n| Authority | NY Workers' Compensation Board |\n| Status | **Mandatory** for virtually all employers [33] |\n| Fee | Premium set by insurers |\n\n**Gap:** No specific premium amounts are published by government sources. The WCB pages confirm the obligation but not the cost.\n\n**Source URLs:** https://www.wcb.ny.gov/content/main/coverage-requirements-wc/ [10]; https://www.wcb.ny.gov/content/main/coverage-requirements-db/ [33]\n\n---\n\n### 8. Ongoing Filings\n\n| Filing | Authority | Frequency | Fee | Source |\n|---|---|---|---|---|\n| Food Service Establishment Permit renewal | NYC DOHMH | Annually | $280 (renewal fee same as initial permit fee per official source) | [7] |\n| NY State Sales Tax return | NY Tax Dept | Quarterly or annually | No filing fee | [9] |\n| Workers' compensation insurance renewal | WCB-designated insurer | Annual | Premium varies | [10] |\n| Biennial Statement (LLC) | NY Dept of State | Every 2 years | $9 | [20][41] |\n| DOHMH annual unscheduled inspection | NYC DOHMH | Annual | No fee; fines possible | [7] |\n\n**Source URLs:** [7][9][10][20][41]\n\n---\n---\n\n## Comparative Summary Table\n\n| Category | Singapore | London, England | New York City |\n|---|---|---|---|\n| **Business registration fee** | S$115 (1-year sole prop.) [12] | £0 (sole trader) / £100 (Ltd Co.) [24][2] | $100–$120 (assumed name) / $200 (LLC) [8][19] |\n| **Business registration time** | Same day to 15 working days [11] | No formal step (sole trader) / ~24 hours online (Ltd) [2] | Not published |\n| **Activity licence fee** | S$195/year [13] | Free [1] | $280/year [7] |\n| **Activity licence processing** | 7 working days [13] | 28 days notice required; registration not refused [1] | 22 days before operations; permit issued later [7] |\n| **Tax registration** | Only if >S$1M turnover [15] | Only if >£90,000 turnover [26] | Mandatory; \"weeks\" for Certificate [9] |\n| **Premises/zoning** | Conditional; S$500 if change-of-use needed; 10 days [43] | Conditional; fee not published; duration not published [22] | CO mandatory; fee not published; duration not published [21] |\n| **Mandatory food safety training** | WSQ FSC Level 1 for all handlers [36] | No certificate required; competence must be demonstrable [44] | Food Protection Certificate for supervisor: $24–$114, 5 days [39] |\n| **Compulsory insurance** | WIC for manual workers [29] | EL insurance (≥£5M cover) if employing staff [4] | Workers' comp + disability for all employees [10][33] |\n| **Outdoor seating** | Show ORA on layout plan (no separate licence fee confirmed) | Pavement licence: ≤£500, 28-day process [25] | Dining Out NYC licence: fee not published [32] |\n| **Annual renewal burden** | ACRA S$30 + SFA S$195 [27][28] | Companies House £50 + VAT returns [23] | DOHMH $280 + sales tax returns + insurance renewals [7] |\n\n---\n\n## Recommendation: Which Place Is Easiest to Start In?\n\n### Ranking: **1. Singapore → 2. London → 3. New York City**\n\n### Easiest: Singapore\n\n**Reasons:**\n\n1. **Fewest pre-opening steps with published timelines.** The SFA Food Shop Licence has a clear 7-working-day review period [13], the ACRA registration is typically same-day [11], and—crucially for a café in a commercial building converting from shop use—no URA planning permission is required [16][35]. The operator knows exactly what to do and when to expect outcomes.\n\n2. **Lowest total confirmed upfront cost among mandatory fees.** ACRA S$115 + SFA S$195 = S$310 (~US$230) in confirmed government fees before opening. The only conditional addition is the URA change-of-use fee of S$500 if the premises is not already in restaurant use.\n\n3. **Activity licence is specific, bundled, and comprehensive.** The SFA Food Shop Licence single-handedly covers the core activity. There is no separate food hygiene rating certificate to obtain before opening.\n\n4. **Fire certificate not required** for a 30-seat café (below 200-person occupant load threshold) [17], eliminating one step present in larger-scale operations.\n\n**Trade-offs / Blockers for Singapore:**\n\n- The URA change-of-use process (S$500, up to 10 working days, plus possible referral to other agencies) can block lease commitment and renovation start if the premises is not already approved for restaurant use. Operators are advised not to commit to a tenancy before URA approval [43].\n- All food handlers must pass WSQ FSC Level 1 before the licence application, and SSG takes up to 2 weeks to share data with SFA [36]—this adds ~2 weeks to the pre-opening timeline that is easy to underestimate.\n- Foreign nationals without Singpass must engage a Corporate Service Provider, adding cost and time [11].\n- The GIRO auto-payment setup for the SFA licence can take up to 8 weeks [13]; operators who want to avoid delays should pay by other means.\n\n---\n\n### Second: London, England\n\n**Reasons:**\n\n1. **Food business registration is free and cannot be refused** [1]—the simplest activity-licence process of the three. No fee, no approval discretion, just notify 28 days before opening.\n\n2. **Sole trader structure requires no formal registration** and no fee [24]. A newcomer can start legally with the lowest structural overhead.\n\n3. **No mandatory food hygiene certificate** for staff [44]—competence can be shown through on-the-job training or self-study, reducing pre-opening training costs.\n\n4. **VAT registration threshold (£90,000)** [26] means a new small café almost certainly does not need to register for VAT at launch, simplifying tax obligations.\n\n**Trade-offs / Blockers for London:**\n\n- The **planning permission fee is not published** in the official evidence available [22]—the statutory fee tables are referenced but not reproduced. This is a gap that cannot be filled from official sources; a prospective operator would need to consult the statutory instrument or the local planning authority directly.\n- If the premises lacks Class E use permission, a planning application is required, with no published processing time guarantee (beyond the statutory 8-week standard for most applications, which is not stated in the evidence).\n- **Employers' Liability insurance is mandatory** as soon as staff are hired [4], with no government-fixed premium—adding an unquantifiable upfront cost.\n- The Food Hygiene Rating from the local authority is published publicly and can affect footfall; the first inspection may take \"several months\" [1], during which the business operates without a rating, which may concern customers.\n\n---\n\n### Third (most complex): New York City\n\n**Reasons it ranks last:**\n\n1. **Most agencies involved pre-opening.** Before a café can operate, the owner needs: (a) a Certificate of Authority to Collect Sales Tax (weeks to arrive [7]); (b) a Certificate of Occupancy from DOB (fee and timeline both unpublished [21]); (c) a Food Protection Certificate for the supervising manager (5 days of training [40]); (d) workers' compensation and disability insurance with DOHMH named as certificate holder [7]; (e) the DOHMH Food Service Establishment Permit itself ($280 [7]). These must be obtained in a sequence, not simultaneously.\n\n2. **Two significant unknowns that could cause delays:** The Certificate of Occupancy fee is not published, and its processing time depends on the resolution of all open applications and violations—both of which are entirely outside the operator's control timeline [21]. This is the single biggest potential blocker.\n\n3. **Sales tax Certificate of Authority** must be obtained before the DOHMH permit application, and the official source warns it \"may take weeks\" [7]—creating a chain dependency that extends the pre-opening timeline.\n\n4. **Annual recurring costs are highest.** DOHMH permit renewal of $280/year [7], plus workers' compensation and disability insurance premiums for all employees, plus sales tax filing obligations, creates the heaviest ongoing administrative burden of the three cities.\n\n5. **LLC newspaper publication requirement** (if that structure is chosen) is an unusual additional cost and administrative step not present in Singapore or the UK [19].\n\n**Trade-offs / What could block a NYC newcomer:**\n\n- An open violation or unresolved application on the property can block CO issuance indefinitely [21].\n- If the supervising manager does not yet have a Food Protection Certificate, the business cannot open legally, and the 5-day course must be completed first [39][40].\n- The sales tax Certificate of Authority must arrive (weeks) before the DOHMH permit can be filed [7][9]—meaning the total pre-opening timeline is at minimum several weeks beyond what a simple licence application would suggest.\n- Outdoor dining fees are not published in official sources [32], making budget planning for a sidewalk café feature incomplete.\n\n---",
+  "research": {
+    "run_id": "01a1cdf1-2799-79f1-97c0-c7758fe241ea",
+    "mode": "deep",
+    "started_at": "2026-11-12T04:08:16Z",
+    "completed_at": "2026-11-12T04:18:29Z",
+    "termination_reason": "planner_done",
+    "iterations": 13,
+    "sources_read": 45,
+    "citations": [
+      "https://www.food.gov.uk/business-guidance/getting-ready-to-start-your-food-business",
+      "https://www.gov.uk/limited-company-formation/register-your-company",
+      "https://www.gov.uk/government/publications/incorporation-and-names/incorporation-and-names",
+      "https://www.gov.uk/employers-liability-insurance",
+      "https://www.gov.uk/register-employer",
+      "https://www.gov.uk/guidance/food-products-and-vat-notice-70114",
+      "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+      "https://portal.311.nyc.gov/article/?kanumber=KA-02601",
+      "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
+      "https://www.wcb.ny.gov/content/main/coverage-requirements-wc/",
+      "https://www.acra.gov.sg/register/business/registering-different-business-structures/sole-proprietorship-or-partnership/",
+      "https://www.acra.gov.sg/register/business/choosing-business-structure/",
+      "https://www.sfa.gov.sg/food-retail/licence-permit/application-process-fees-for-licence-permit-for-food-retail",
+      "https://www.sfa.gov.sg/food-retail/licence-permit/requirements-for-licence-permit-for-food-retail",
+      "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-registration-deregistration/do-i-need-to-register-for-gst",
+      "https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/assessment-criteria/",
+      "https://www.scdf.gov.sg/fire-safety-services-listing/permits-and-certifications/fire-certificate",
+      "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/service-transaction-fees/",
+      "https://dos.ny.gov/forming-limited-liability-company-new-york",
+      "https://dos.ny.gov/fee-schedules",
+      "https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
+      "https://www.gov.uk/guidance/fees-for-planning-applications",
+      "https://www.gov.uk/guidance/filing-your-companys-confirmation-statement",
+      "https://www.gov.uk/become-sole-trader",
+      "https://www.gov.uk/government/publications/pavement-licences-guidance/pavement-licences-guidance",
+      "https://www.gov.uk/register-for-vat",
+      "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/key-requirements-common-offences/renewing-your-registration/",
+      "https://www.sfa.gov.sg/food-retail/licence-permit/update-renew-cancel-licence-permit-for-food-retail",
+      "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/work-injury-compensation-insurance",
+      "https://www.cpf.gov.sg/employer/making-cpf-contributions/applying-for-a-cpf-submission-number",
+      "https://licensing.gobusiness.gov.sg/licence-directory/sfa/food-shop-licence",
+      "https://www.nyc.gov/html/dot/html/about/outdoor-dining.shtml",
+      "https://www.wcb.ny.gov/content/main/coverage-requirements-db/",
+      "https://nyc-business.nyc.gov/nycbusiness/description/certificate-of-assumed-name-business-certificate",
+      "https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/related/criteria-for-restaurant/",
+      "https://www.sfa.gov.sg/food-handler-hygiene-officer/requirements-for-food-handler-hygiene-officer/requirements-for-food-handlers",
+      "https://www.sfa.gov.sg/food-handler-hygiene-officer/requirements-for-food-handler-hygiene-officer/requirements-for-food-hygiene-officers",
+      "https://www.gov.uk/government/publications/vat-increasing-the-registration-and-deregistration-thresholds/increasing-the-vat-registration-threshold",
+      "https://nyc-business.nyc.gov/nycbusiness/description/food-protection-certificate",
+      "https://www.nyc.gov/site/doh/business/health-academy/food-protection-classroom.page",
+      "https://dos.ny.gov/biennial-statements-business-corporations-and-limited-liability-companies",
+      "https://www.nyc.gov/site/buildings/property-or-business-owner/place-of-assembly-certificate-of-operation.page",
+      "https://www.ura.gov.sg/guidelines/property-and-business-owners/business-owners/change-use-of-property-for-business/",
+      "https://www.gov.uk/running-food-business/staff-training-illness-hygiene"
+    ],
+    "official_domains": [],
+    "questions": [
+      "Singapore: Confirm ACRA registration fee for sole proprietorship and processing time",
+      "Singapore: Confirm SFA Food Shop Licence fee, processing time, renewal, and pre-licensing checklist",
+      "Singapore: What is the URA planning permission process for a restaurant/café, and when is it needed?",
+      "Singapore: SCDF fire certificate for food establishments - when needed, fees",
+      "Singapore: NEA environmental sanitation regime requirements for cafes/restaurants",
+      "London UK: Exact planning application fee for change of use to café/restaurant (Class E or former A3)",
+      "London UK: Pavement licence fee - confirm national maximum and typical London council fee",
+      "NYC: DCA/DCWP sidewalk café license fee and renewal fee",
+      "NYC: DOH food service establishment permit - confirm $280 fee, inspection process, annual renewal",
+      "NYC: Certificate of occupancy fee for eating establishment - confirm and get processing time",
+      "NYC: Food Protection Course (FPC) certificate requirement for supervisor",
+      "London UK: Food hygiene training requirements for staff and manager in England"
+    ]
+  },
+  "fx": {
+    "base": "USD",
+    "date": "2026-11-11",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "rates": {
+      "EUR": 1.1127,
+      "USD": 1,
+      "JPY": 0.0062800541821876055,
+      "CZK": 0.04564361309377307,
+      "DKK": 0.14884623102133637,
+      "GBP": 1.330694348106867,
+      "HUF": 0.003047825134217158,
+      "PLN": 0.2526681502338889,
+      "RON": 0.20817197058988604,
+      "SEK": 0.10068772056827437,
+      "CHF": 1.2050032488628981,
+      "ISK": 0.00813377192982456,
+      "NOK": 0.10482830090913374,
+      "TRY": 0.019908856193538344,
+      "AUD": 0.6859203550733571,
+      "BRL": 0.179969916056092,
+      "CAD": 0.7025064713681419,
+      "CNY": 0.1499090602896598,
+      "HKD": 0.12745996471855026,
+      "IDR": 0.00005502063953890855,
+      "ILS": 0.3153017852082743,
+      "INR": 0.010672971780459263,
+      "KRW": 0.0007479984135200361,
+      "MXN": 0.05359232840292261,
+      "MYR": 0.24548824074482636,
+      "NZD": 0.5583600963468487,
+      "PHP": 0.0158101138123588,
+      "SGD": 0.7796930838763927,
+      "THB": 0.02968228986048497,
+      "ZAR": 0.06037209655628923
+    }
+  },
+  "checked_at": "2026-11-12T07:13:01.460Z",
+  "endpoints_used": [
+    {
+      "name": "TinySearch",
+      "how": "Finds the government sites that cover this activity in each place before any research is paid for. Those sites steer the research and define what counts as an official source."
+    },
+    {
+      "name": "TinyResearch",
+      "how": "Does the digging: one deep run reads the official rules for every place against the same eight categories and returns a cited report plus the structured data behind this table."
+    },
+    {
+      "name": "TinyFetch",
+      "how": "Re-reads every cited page live and tests each fee, processing time and quote against it. The checked date and the confirmed / not confirmed mark on each row come from this step."
+    }
+  ],
+  "warnings": []
+}

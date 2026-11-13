@@ -7,6 +7,7 @@ import { useEffect } from "react";
  * - [data-in]: rises in once when it enters the viewport; siblings stagger through --i.
  *   Marked with a data attribute, not a class, so React re-rendering className can't undo it.
  * - [data-progress]: gets --p, 0 → 1 as the element travels through the viewport (for scroll-linked moves).
+ * - [data-zoom]: gets --z, 0 at the top of the page → 1 once the element has scrolled up near the top of the viewport.
  */
 export function Motion() {
   useEffect(() => {
@@ -28,10 +29,16 @@ export function Motion() {
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
     const tracked = Array.from(document.querySelectorAll<HTMLElement>("[data-progress]"));
+    const zooms = Array.from(document.querySelectorAll<HTMLElement>("[data-zoom]"));
     let frame = 0;
     const update = () => {
       frame = 0;
       const vh = window.innerHeight;
+      for (const el of zooms) {
+        const top = el.getBoundingClientRect().top + window.scrollY;
+        const z = reduce.matches ? 0 : Math.min(1, Math.max(0, window.scrollY / Math.max(1, top - vh * 0.12)));
+        el.style.setProperty("--z", z.toFixed(4));
+      }
       for (const el of tracked) {
         const r = el.getBoundingClientRect();
         if (r.bottom < -vh || r.top > vh * 2) continue;

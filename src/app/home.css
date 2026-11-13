@@ -1,5 +1,6 @@
 /* Mappy home. Warm paper ground, warm near-black ink, one green accent spent on the action, the pick and one field.
-   One face (Geist), five sizes, one radius (8px). Lines and borders appear only inside product fragments ([data-ui]). */
+   One face (Geist), five sizes, one radius (8px). A drafting frame holds it together: rails at the content edges, a rule
+   and crosshairs at each section, ruled cells where content is listed. */
 
 .home {
   --step-small: 0.875rem;
@@ -13,6 +14,8 @@
   --gap-section: clamp(112px, 14vw, 200px);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-spring: cubic-bezier(0.34, 1.36, 0.64, 1);
+  --rule: #d9d5ce;
+  --rule-soft: color-mix(in srgb, var(--rule) 70%, transparent);
 
   background: var(--bg);
   color: var(--ink);
@@ -112,32 +115,56 @@
 /* ---------- Hero ---------- */
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  min-height: calc(100svh - 64px);
+  position: relative;
+  padding-top: clamp(56px, 11vh, 132px);
+  /* A ruled grid, like drafting paper, fading out toward the edges. */
+  background-image:
+    linear-gradient(to right, var(--rule-soft) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--rule-soft) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: center top;
+  -webkit-mask-image: none;
 }
+.hero::before {
+  /* Fades the grid into the paper at the bottom and sides without fading the content. */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 30%, transparent 0%, var(--bg) 100%);
+  pointer-events: none;
+}
+.hero > * { position: relative; }
 .hero-copy {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
   gap: 28px;
-  padding: 48px var(--margin) clamp(48px, 7vh, 88px);
-  transform: translateY(calc((var(--p, 0.45) - 0.45) * -120px));
-  opacity: calc(1 - max(0, var(--p, 0.45) - 0.55) * 4);
+  width: min(100% - 2 * var(--margin), 980px);
+  margin-inline: auto;
 }
-.hero h1 { font-size: clamp(2.75rem, 0.4rem + 4vw, 4.75rem); letter-spacing: -0.045em; line-height: 0.98; }
+.hero h1 { font-size: clamp(2.75rem, 0.6rem + 4.6vw, 5.5rem); letter-spacing: -0.05em; line-height: 0.98; }
 @media (min-width: 961px) { .mask > span > span { white-space: nowrap; } }
-.hero-lead { font-size: var(--step-lead); line-height: 1.4; max-width: 30ch; letter-spacing: -0.01em; }
-.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; }
+.hero-lead { font-size: var(--step-lead); line-height: 1.4; max-width: 40ch; letter-spacing: -0.01em; color: var(--muted); }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px 28px; }
+
+/* The dashboard sits centred below the copy: its top half shows on the first screen, and scrolling zooms it in by 20%. */
 .hero-stage {
-  display: grid;
-  place-items: center;
-  padding: 48px var(--margin);
-  background: var(--surface);
+  display: flex;
+  justify-content: center;
+  width: min(100% - 2 * var(--margin), 1320px);
+  margin: clamp(48px, 9vh, 104px) auto 0;
+  padding-bottom: clamp(56px, 8vw, 120px);
 }
-.hero-stage > * {
-  transform: translateY(calc((var(--p, 0.45) - 0.45) * -60px)) scale(calc(1 + (var(--p, 0.45) - 0.45) * 0.12));
-  transform-origin: 50% 30%;
+.hero { overflow-x: clip; }
+.hero-stage .board {
+  flex: none;
+  width: min(100%, 1000px);
+  /* Grows from its centre as the page scrolls, so it zooms into view. */
+  transform: scale(calc(1 + var(--z, 0) * 0.2));
+  transform-origin: 50% 50%;
+  box-shadow: 0 1px 0 var(--ui-line), 0 30px 80px -40px rgb(28 25 22 / 0.35);
+  will-change: transform;
 }
 
 /* Masked headline: each line rises from behind its own baseline. */
@@ -146,18 +173,17 @@
 .mask > span:nth-child(2) > span { animation-delay: 110ms; }
 .hero-lead, .hero-actions { animation: fade-up 800ms var(--ease-out) both; animation-delay: 420ms; }
 .hero-actions { animation-delay: 500ms; }
-.hero-stage .board { animation: board-in 1100ms var(--ease-out) both; animation-delay: 240ms; }
+.hero-stage .board { animation: board-in 1100ms var(--ease-out) both; animation-delay: 320ms; }
 
 @keyframes rise { from { transform: translateY(105%); } to { transform: none; } }
 @keyframes fade-up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
-@keyframes board-in { from { opacity: 0; transform: translateY(40px) scale(0.96); } to { opacity: 1; transform: none; } }
+@keyframes board-in { from { opacity: 0; translate: 0 48px; } to { opacity: 1; translate: 0 0; } }
 
 @media (max-width: 960px) {
-  .hero { grid-template-columns: 1fr; min-height: 0; }
-  .hero-stage { padding: 12px 12px 28px; }
-  .hero-copy { padding-top: 40px; padding-bottom: 40px; transform: none; opacity: 1; }
-  .hero-stage > * { transform: none; }
+  .hero { padding-top: 48px; background-size: 40px 40px; }
   .hero h1 { font-size: clamp(2.5rem, 10.5vw, 4rem); }
+  .hero-stage { margin-top: 40px; padding-bottom: 48px; }
+  .hero-stage .board { width: 100%; margin-right: 0; transform: none; }
 }
 
 /* ---------- Hero board (product fragment) ---------- */
@@ -222,16 +248,16 @@
 .board-foot p { max-width: 46ch; }
 .board-foot a { color: var(--accent-deep); font-weight: 600; text-underline-offset: 3px; }
 
-/* ---------- Facts ---------- */
+/* ---------- Facts: four ruled cells between the rails ---------- */
 
 .facts {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 24px;
   width: min(100% - 2 * var(--margin), 1320px);
-  margin: clamp(72px, 9vw, 128px) auto 0;
+  margin-inline: auto;
 }
-.facts p { color: var(--muted); font-size: var(--step-body); }
+.facts p { color: var(--muted); font-size: var(--step-body); padding: clamp(28px, 3.4vw, 48px) clamp(18px, 2vw, 32px); }
+.facts p + p { border-left: 1px solid var(--rule); /* taste-skill-ignore: structural rule the client asked for */ }
 .facts strong {
   display: block;
   font-size: var(--step-head);
@@ -242,7 +268,11 @@
   font-variant-numeric: tabular-nums;
   margin-bottom: 10px;
 }
-@media (max-width: 720px) { .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 40px; } }
+@media (max-width: 720px) {
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .facts p:nth-child(3) { border-left: 0; }
+  .facts p:nth-child(n + 3) { border-top: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+}
 
 /* ---------- Story (pinned) ---------- */
 
@@ -618,7 +648,7 @@ details[open] .plus::after { transform: rotate(0deg); }
 .under-lead { font-size: var(--step-lead); letter-spacing: -0.01em; max-width: 40ch; }
 .under-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px clamp(32px, 5vw, 80px); }
 .stage > p { color: var(--muted); line-height: 1.6; max-width: 60ch; }
-.stage-wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 20px clamp(32px, 5vw, 80px); align-items: start; }
+.stage-wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: 20px clamp(32px, 5vw, 80px); align-items: start; }
 .stage-wide .code { margin-top: 0; }
 .stage strong { color: var(--ink); font-weight: 600; }
 .evidence { margin-top: 20px; padding: 16px; border-radius: var(--radius); background: var(--paper); border: 1px solid var(--ui-line); font-size: 0.875rem; /* taste-skill-ignore: inside a data-ui fragment or a focus ring */ }
@@ -649,7 +679,7 @@ details[open] .plus::after { transform: rotate(0deg); }
 
 /* ---------- Footer ---------- */
 
-.foot { padding: var(--gap-section) var(--margin) 28px; }
+.foot { position: relative; background: var(--bg); padding: var(--gap-section) var(--margin) 28px; }
 .foot-word {
   font-size: 23.5vw;
   font-weight: 600;
@@ -670,6 +700,84 @@ details[open] .plus::after { transform: rotate(0deg); }
   .foot-line p:last-child { text-align: left; }
 }
 
+/* ---------- Structure: rails, section rules, crosshairs, labels ---------- */
+
+/* Rails: two hairlines running the full page at the content edges. They sit under every section's own fill. */
+.home { position: relative; isolation: isolate; --rail: calc((100% - min(100% - 2 * var(--margin), 1320px)) / 2 - 16px); }
+.rails {
+  position: absolute;
+  inset: 0 var(--rail);
+  z-index: -1;
+  border-inline: 1px solid var(--rule); /* taste-skill-ignore: structural rule the client asked for */
+  pointer-events: none;
+}
+.bar { border-bottom: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+
+/* Every section starts on a full-width rule, with a crosshair where it crosses each rail. */
+.home main > section { position: relative; border-top: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+.home main > section::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: calc(var(--rail) - 7px);
+  right: calc(var(--rail) - 7px);
+  height: 15px;
+  background:
+    linear-gradient(var(--ink), var(--ink)) left 7px top 0 / 1px 15px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) left 0 top 7px / 15px 1px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) right 7px top 0 / 1px 15px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) right 0 top 7px / 15px 1px no-repeat;
+  pointer-events: none;
+  z-index: 3;
+}
+/* The frame closes on a rule above the footer; the footer itself sits outside it. */
+.home main > section:last-child { border-bottom: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+/* A small index on the rule, so the page reads as numbered sheets. */
+.home main > section[data-label]::after {
+  content: attr(data-label);
+  position: absolute;
+  top: 0;
+  left: calc(var(--rail) + 1px);
+  padding: 9px 12px 7px 16px;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  background: var(--bg);
+  border-right: 1px solid var(--rule); /* taste-skill-ignore: structural rule */
+  border-bottom: 1px solid var(--rule); /* taste-skill-ignore: structural rule */
+  z-index: 2;
+}
+.sec, .sec-story, .sec-cta { padding-block: clamp(96px, 11vw, 160px); }
+.sec-story { padding-bottom: 0; }
+
+/* Ruled cells instead of floating cards: the grid's 1px gaps show the line colour underneath. */
+.tiles { gap: 1px; background: var(--rule); border: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+.tiles .tile { border-radius: 0; }
+.tiles .tile:not(.tile-head) { background: var(--bg); transition: background-color 180ms ease-out; }
+.tiles .tile:not(.tile-head):hover { background: var(--paper); }
+
+.under-grid { gap: 1px; background: var(--rule); border: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+.under-grid .stage { background: var(--bg); padding: clamp(24px, 3vw, 44px); }
+.under-grid .stage::before { content: ""; display: block; width: 9px; height: 9px; margin-bottom: 20px; background: var(--accent); }
+.under-grid .stage-wide::before { grid-column: 1 / -1; margin-bottom: 0; }
+.stage-wide > p { max-width: 34ch; }
+.stage-wide .code { padding: 32px 28px; line-height: 1.85; min-height: 320px; display: flex; align-items: center; }
+
+/* A dotted field behind the call to action and the weigh panel. */
+.sec-cta, .sec-weigh {
+  background-image: radial-gradient(var(--rule) 1px, transparent 1.2px);
+  background-size: 16px 16px;
+}
+.sec-faq .faq-list { gap: 0; border-top: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+.sec-faq .faq details { border-radius: 0; background: transparent; border-bottom: 1px solid var(--rule); /* taste-skill-ignore: structural rule */ }
+.sec-faq .faq details:hover:not([open]) { background: var(--surface-soft); }
+.sec-faq .faq details[open] { background: var(--accent); }
+
+@media (max-width: 720px) {
+  .home main > section[data-label]::after { font-size: 0.6875rem; padding: 5px 8px; }
+}
+
 /* ---------- Entrances ---------- */
 
 .motion .home [data-in] { transition-property: opacity, transform; transition-duration: 700ms, 900ms; transition-timing-function: ease, var(--ease-out); transition-delay: calc(var(--i, 0) * 80ms); }
@@ -686,5 +794,5 @@ details[open] .plus::after { transform: rotate(0deg); }
 @media (prefers-reduced-motion: reduce) {
   .home *, .home *::before, .home *::after { animation-duration: 1ms !important; animation-delay: 0ms !important; transition-duration: 1ms !important; transition-delay: 0ms !important; }
   .motion .home [data-in]:not([data-shown]) { opacity: 1; transform: none; }
-  .hero-copy, .hero-stage > *, .example-photo img, .cta-photo img { transform: none !important; opacity: 1 !important; }
+  .hero-stage .board, .example-photo img, .cta-photo img { transform: none !important; opacity: 1 !important; }
 }

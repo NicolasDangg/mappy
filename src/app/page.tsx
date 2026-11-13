@@ -42,6 +42,7 @@ export default async function Home() {
 
   return (
     <div className="home">
+      <div className="rails" aria-hidden="true" />
       <Motion />
 
       <nav className="bar" aria-label="Main">
@@ -59,7 +60,7 @@ export default async function Home() {
         <a href="#start" className="btn btn-small">Compare places</a>
       </nav>
 
-      <header className="hero" data-progress>
+      <header className="hero">
         <div className="hero-copy">
           <h1 className="mask" aria-label="Where should your shop open?">
             <span><span>Where should your</span></span>
@@ -73,21 +74,23 @@ export default async function Home() {
             {cafe ? <Link href={`/c/${cafe.id}`} className="textlink">See a finished comparison</Link> : null}
           </div>
         </div>
-        <div className="hero-stage">
+        <div className="hero-stage" data-zoom>
           {examples.length ? <HeroBoard examples={examples} /> : null}
         </div>
       </header>
 
       <main>
-        <section className="facts" aria-label="What the examples on this page are built from">
-          <p data-in><strong>{pages}</strong> government pages read</p>
-          <p data-in style={{ "--i": 1 } as React.CSSProperties}><strong>{reqs}</strong> requirements lined up</p>
-          <p data-in style={{ "--i": 2 } as React.CSSProperties}><strong>{hosts}</strong> official sites cited</p>
-          <p data-in style={{ "--i": 3 } as React.CSSProperties}><strong>0</strong> figures guessed</p>
+        <section className="facts-sec" aria-label="What the examples on this page are built from">
+          <div className="facts">
+            <p data-in><strong>{pages}</strong> government pages read</p>
+            <p data-in style={{ "--i": 1 } as React.CSSProperties}><strong>{reqs}</strong> requirements lined up</p>
+            <p data-in style={{ "--i": 2 } as React.CSSProperties}><strong>{hosts}</strong> official sites cited</p>
+            <p data-in style={{ "--i": 3 } as React.CSSProperties}><strong>0</strong> figures guessed</p>
+          </div>
         </section>
 
         {cafe ? (
-          <section id="story" className="sec-story" aria-labelledby="h-story">
+          <section id="story" className="sec-story" data-label="01 · The table" aria-labelledby="h-story">
             <div className="wrap story-intro">
               <h2 id="h-story" data-in>{cafe.places.reduce((n, p) => n + p.hosts.length, 0)} government sites, one table</h2>
               <p data-in style={{ "--i": 1 } as React.CSSProperties}>Here is a real comparison for a thirty-seat café, built the way yours will be. Scroll to watch it come together.</p>
@@ -97,7 +100,7 @@ export default async function Home() {
         ) : null}
 
         {examples.length ? (
-          <section id="weigh" className="sec sec-weigh" aria-labelledby="h-weigh">
+          <section id="weigh" className="sec sec-weigh" data-label="02 · Weigh it" aria-labelledby="h-weigh">
             <div className="wrap">
               <div className="weigh-intro">
                 <h2 id="h-weigh" data-in>Weigh what matters to you</h2>
@@ -111,7 +114,7 @@ export default async function Home() {
         ) : null}
 
         {cafe ? (
-          <section className="sec sec-cmd" aria-labelledby="h-cmd">
+          <section className="sec sec-cmd" data-label="03 · Eight headings" aria-labelledby="h-cmd">
             <div className="wrap">
               <h2 id="h-cmd" className="sr-only">The eight headings every place answers</h2>
               <p className="cmd-intro" data-in>Every place answers the same eight headings, so nothing hides in the gaps.</p>
@@ -121,7 +124,7 @@ export default async function Home() {
         ) : null}
 
         {sources.length ? (
-          <section id="sources" className="sec sec-sources" aria-labelledby="h-sources">
+          <section id="sources" className="sec sec-sources" data-label="04 · Sources" aria-labelledby="h-sources">
             <div className="wrap tiles">
               <div className="tile tile-head" data-in>
                 <h2 id="h-sources">Read at the source</h2>
@@ -138,7 +141,7 @@ export default async function Home() {
         ) : null}
 
         {cafe && drone ? (
-          <section className="sec sec-examples" aria-labelledby="h-examples">
+          <section className="sec sec-examples" data-label="05 · Examples" aria-labelledby="h-examples">
             <div className="wrap">
               <h2 id="h-examples" data-in>Two businesses, already compared</h2>
               <div className="examples">
@@ -159,7 +162,7 @@ export default async function Home() {
           </section>
         ) : null}
 
-        <section id="questions" className="sec sec-faq" aria-labelledby="h-faq">
+        <section id="questions" className="sec sec-faq" data-label="06 · Questions" aria-labelledby="h-faq">
           <div className="wrap faq">
             <h2 id="h-faq" data-in>Fair questions</h2>
             <div className="faq-list">
@@ -173,7 +176,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <section id="start" className="sec-cta" aria-labelledby="h-start">
+        <section id="start" className="sec-cta" data-label="07 · Start" aria-labelledby="h-start">
           <div className="cta-row">
             <div className="cta-side cta-photo" data-progress>
               <Image src={PHOTOS[0].src} width={PHOTOS[0].w} height={PHOTOS[0].h} alt={PHOTOS[0].alt} sizes="20vw" />
@@ -189,7 +192,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <section id="under" className="sec sec-under" aria-labelledby="h-under">
+        <section id="under" className="sec sec-under" data-label="08 · Under the hood" aria-labelledby="h-under">
           <div className="under">
             <div className="under-head">
               <h2 id="h-under" data-in>Under the hood</h2>
